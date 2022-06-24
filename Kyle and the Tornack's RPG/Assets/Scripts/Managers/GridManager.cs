@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
+    public static GridManager Instance;
     [SerializeField] private int width, height;
 
     [SerializeField] private Tile tilePrefab;
@@ -11,13 +12,13 @@ public class GridManager : MonoBehaviour
 
     public Dictionary<Vector2, Tile> Tiles;
 
-    private void Start()
+    private void Awake()
     {
-        FindGrid();
-        //GenerateGrid();
+        Instance = this;
     }
 
-    void FindGrid()
+
+    public void FindGrid()
     {
         tileGrid = GetComponentsInChildren<Tile>();
         Tiles = new Dictionary<Vector2, Tile>();
@@ -26,6 +27,8 @@ public class GridManager : MonoBehaviour
         {
             Tiles[new Vector2(tile.transform.position.x, tile.transform.position.y)] = tile;
         }
+
+        GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
     }
 
     public Tile GetTileAtPosition(Vector2 pos)
