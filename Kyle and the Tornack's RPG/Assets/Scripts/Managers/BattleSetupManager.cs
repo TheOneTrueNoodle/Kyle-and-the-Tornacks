@@ -10,11 +10,14 @@ public class BattleSetupManager : MonoBehaviour
 
     [SerializeField] private GameObject buttonTemplate;
 
+    [SerializeField] private GameObject CharacterSelectUI;
+
     private List<ScriptableUnit> heroes;
     private bool HeroesGenerated;
     public List<ScriptableUnit> SelectedUnits;
 
     public TMP_Text NoHeroes;
+    public GameObject LessThanSix;
 
     private void Awake()
     {
@@ -46,11 +49,15 @@ public class BattleSetupManager : MonoBehaviour
         }
     }
 
-    public void StartBattle()
+    public void ChoosePositions()
     {
         if(SelectedUnits.Count == 0)
         {
             StartCoroutine(NoHeroesTextFade());
+        }
+        else if(SelectedUnits.Count < 6)
+        {
+            LessThanSix.SetActive(true);
         }
     }
 
@@ -58,11 +65,24 @@ public class BattleSetupManager : MonoBehaviour
     {
         NoHeroes.enabled = true;
         NoHeroes.color = new Color(NoHeroes.color.r, NoHeroes.color.g, NoHeroes.color.b, 1);
+
+        yield return new WaitForSeconds(1);
+
         while(NoHeroes.color.a > 0f)
         {
-            NoHeroes.color = new Color(NoHeroes.color.r, NoHeroes.color.g, NoHeroes.color.b, NoHeroes.color.a - (Time.deltaTime / 0.1f));
+            NoHeroes.color = new Color(NoHeroes.color.r, NoHeroes.color.g, NoHeroes.color.b, NoHeroes.color.a - (Time.deltaTime / 0.3f));
             yield return null;
         }
         NoHeroes.enabled = false;
+    }
+
+    public void DontStart()
+    {
+        LessThanSix.SetActive(false);
+    }
+
+    public void ConfirmStart()
+    {
+
     }
 }
