@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Ludwig
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 9133413194232113803, guid: 65af3cfb75c25fa459bc6bae456542c1,
+    type: 3}
   SkullToken: 0
   DeadorInjured: 0
   CharName: Ludwig

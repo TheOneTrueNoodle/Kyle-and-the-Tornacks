@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Nicholas Count
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 6938312477946299532, guid: 7a67074fd4a47e149bd71c059a3477a9,
+    type: 3}
   SkullToken: 0
   DeadorInjured: 0
   CharName: Nicholas Count

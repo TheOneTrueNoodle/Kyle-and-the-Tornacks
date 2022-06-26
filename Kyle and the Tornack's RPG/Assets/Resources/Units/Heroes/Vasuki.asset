@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Vasuki
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 3420033761106883476, guid: fbc8ef2b9070c7841a92327a43a05727,
+    type: 3}
   SkullToken: 0
   DeadorInjured: 0
   CharName: Vasuki

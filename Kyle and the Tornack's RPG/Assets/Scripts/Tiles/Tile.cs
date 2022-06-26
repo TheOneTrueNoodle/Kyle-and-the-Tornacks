@@ -7,10 +7,13 @@ public class Tile : MonoBehaviour
     [SerializeField] private SpriteRenderer Renderer;
     [SerializeField] private Color highlightColor;
 
-    [SerializeField] private bool obstacle;
+    public bool obstacle;
 
-    [SerializeField] private bool StartingLocation;
+    public bool StartingLocation;
     [SerializeField] private Color StartingLocationColor;
+
+    public BaseUnit OccupiedUnit;
+    public bool Walkable => obstacle == false && OccupiedUnit == null;
 
     private void Start()
     {
@@ -26,5 +29,16 @@ public class Tile : MonoBehaviour
     private void OnMouseExit()
     {
         Renderer.enabled = false;
+    }
+
+    public void SetUnit(BaseUnit unit)
+    {
+        if(unit.OccupiedTile != null)
+        {
+            unit.OccupiedTile.OccupiedUnit = null;
+        }
+        unit.transform.position = transform.position;
+        OccupiedUnit = unit;
+        unit.OccupiedTile = this;
     }
 }

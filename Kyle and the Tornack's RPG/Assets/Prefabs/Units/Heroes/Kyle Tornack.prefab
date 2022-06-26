@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ec1374a35fe7ba42863b10d36fec5cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charName: Kyle Tornack

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -9,6 +10,7 @@ public class GridManager : MonoBehaviour
 
     [SerializeField] private Tile tilePrefab;
     private Tile[] tileGrid;
+
 
     public Dictionary<Vector2, Tile> Tiles;
 
@@ -28,7 +30,7 @@ public class GridManager : MonoBehaviour
             Tiles[new Vector2(tile.transform.position.x, tile.transform.position.y)] = tile;
         }
 
-        GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
+        GameManager.Instance.ChangeState(GameManager.GameState.SelectUnits);
     }
 
     public Tile GetTileAtPosition(Vector2 pos)
@@ -38,6 +40,11 @@ public class GridManager : MonoBehaviour
             return tile;
         }
         return null;
+    }
+
+    public Tile GetHeroSpawnTile()
+    {
+        return Tiles.Where(t => t.Value.StartingLocation && t.Value.Walkable).OrderBy(tag => Random.value).First().Value;
     }
 
     void GenerateGrid()

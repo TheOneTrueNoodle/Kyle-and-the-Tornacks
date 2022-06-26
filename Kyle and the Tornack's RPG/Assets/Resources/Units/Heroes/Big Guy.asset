@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Big Guy
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 7917776697186827925, guid: 0dd68bc10354bf947a32e81a0ed70f26,
+    type: 3}
   SkullToken: 0
   DeadorInjured: 0
   CharName: Big Guy

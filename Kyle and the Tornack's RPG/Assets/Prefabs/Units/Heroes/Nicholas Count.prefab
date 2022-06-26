@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abdb026f105d4cd45a296b7e44f63cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charName: Nicholas Count

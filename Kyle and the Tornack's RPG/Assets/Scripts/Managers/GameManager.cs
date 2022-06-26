@@ -27,8 +27,11 @@ public class GameManager : MonoBehaviour
             case GameState.FindGameplayGrid:
                 GridManager.Instance.FindGrid();
                 break;
-            case GameState.SelectStartPositions:
+            case GameState.SelectUnits:
                 BattleSetupManager.Instance.SelectHeroes();
+                break;
+            case GameState.SelectStartPositions:
+                BattleSetupManager.Instance.SelectStartingPositions();
                 break;
             case GameState.PlayerTurn:
                 break;
@@ -43,12 +46,13 @@ public class GameManager : MonoBehaviour
     }
 
     public enum GameState
-{
-    FindGameplayGrid,
-    SelectStartPositions,
-    PlayerTurn,
-    EnemyTurn,
-    Victory,
-    Defeat
-}
+    {
+        FindGameplayGrid,
+        SelectUnits,
+        SelectStartPositions,
+        PlayerTurn,
+        EnemyTurn,
+        Victory,
+        Defeat
+    }
 }

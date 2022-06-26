@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Seven
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 4708328231516747468, guid: 50003be88036a164c8a3b85a5b65dcfc,
+    type: 3}
   SkullToken: 0
   DeadorInjured: 0
   CharName: Seven

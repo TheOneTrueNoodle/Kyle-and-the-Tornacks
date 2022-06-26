@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Kyle Tornack
   m_EditorClassIdentifier: 
   Faction: 0
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 3538272961205123235, guid: 62a8a7b4156105e4cbf714385a0ca94b,
+    type: 3}
+  SkullToken: 0
+  DeadorInjured: 0
   CharName: Kyle Tornack
   CharPortrait: {fileID: 21300000, guid: 3d10389404f85654d9a76e3e5d8f56bc, type: 3}

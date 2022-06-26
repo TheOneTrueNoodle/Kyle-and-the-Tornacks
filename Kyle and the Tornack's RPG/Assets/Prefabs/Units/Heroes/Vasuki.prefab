@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2104712085781851882}
   - component: {fileID: 3420033761106883476}
   m_Layer: 0
-  m_Name: Eyes
+  m_Name: Vasuki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9978cd4a1769bd44d8194aec5ad74e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charName: Vasuki

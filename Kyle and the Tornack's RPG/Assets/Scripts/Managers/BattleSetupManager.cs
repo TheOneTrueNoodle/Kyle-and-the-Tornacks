@@ -8,16 +8,20 @@ public class BattleSetupManager : MonoBehaviour
 {
     public static BattleSetupManager Instance;
 
-    [SerializeField] private GameObject buttonTemplate;
-
+    //Unit Select Screen
     [SerializeField] private GameObject CharacterSelectUI;
-
+    [SerializeField] private GameObject buttonTemplate;
     private List<ScriptableUnit> heroes;
-    private bool HeroesGenerated;
+    private bool HeroUIGenerated = false;
     public List<ScriptableUnit> SelectedUnits;
 
     public TMP_Text NoHeroes;
     public GameObject LessThanSix;
+
+    //Position Select Screen
+    private bool HeroesSpawned = false;
+    [SerializeField] private CameraMoveControl camControl;
+    [SerializeField] private CameraZoomControl camZoom;
 
     private void Awake()
     {
@@ -43,8 +47,9 @@ public class BattleSetupManager : MonoBehaviour
 
     public void SelectHeroes()
     {
-        if(HeroesGenerated == false)
+        if(HeroUIGenerated == false)
         {
+            CharacterSelectUI.SetActive(true);
             GenButtons();
         }
     }
@@ -58,6 +63,11 @@ public class BattleSetupManager : MonoBehaviour
         else if(SelectedUnits.Count < 6)
         {
             LessThanSix.SetActive(true);
+        }
+        else
+        {
+            CharacterSelectUI.SetActive(false);
+            GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
         }
     }
 
@@ -83,6 +93,28 @@ public class BattleSetupManager : MonoBehaviour
 
     public void ConfirmStart()
     {
+        LessThanSix.SetActive(false);
+        CharacterSelectUI.SetActive(false);
+    }
 
+    public void SelectStartingPositions()
+    {
+        if(HeroesSpawned != true)
+        {
+            camControl.enabled = true;
+            camZoom.enabled = true;
+
+            foreach(ScriptableUnit Hero in SelectedUnits)
+            {
+                var spawnedHero = Instantiate(Hero.UnitPrefab);
+                var randomSpawnTile = GridManager.Instance.GetHeroSpawnTile();
+
+                randomSpawnTile.SetUnit(spawnedHero);
+            }
+        }
+        else
+        {
+
+        }
     }
 }

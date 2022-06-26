@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fb48debb84e2794ab3ec2edfc8dcb4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charName: Big Guy
