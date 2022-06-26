@@ -169,11 +169,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 588481}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &588480
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -298,11 +300,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2782687}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2782686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -427,11 +431,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 4632992}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &4632991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -671,11 +677,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 15142288}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &15142287
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -800,11 +808,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 20984031}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &20984030
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -929,11 +939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 29236864}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &29236863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1058,11 +1070,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 30872237}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &30872236
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1187,11 +1201,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 33327832}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &33327831
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1316,11 +1332,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 40029972}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &40029971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1445,11 +1463,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 40367650}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &40367649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1574,11 +1594,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 45642915}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &45642914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1703,11 +1725,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 49533211}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &49533210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1865,11 +1889,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 54934312}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &54934311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1994,11 +2020,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 60260871}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &60260870
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2123,11 +2151,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 71547840}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &71547839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2252,11 +2282,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 71758199}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &71758198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2381,11 +2413,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 72601454}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &72601453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2510,11 +2544,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 78031192}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &78031191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2639,11 +2675,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 81455074}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &81455073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2768,11 +2806,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 84234657}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &84234656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2897,11 +2937,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 85741379}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &85741378
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3026,11 +3068,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 88873279}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &88873278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3167,11 +3211,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 106746741}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &106746740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3296,11 +3342,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 111486286}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &111486285
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3425,11 +3473,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 117460393}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &117460392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3554,11 +3604,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 119180919}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &119180918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3683,11 +3735,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 120845006}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &120845005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3812,11 +3866,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 126454725}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &126454724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3941,11 +3997,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 129178280}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &129178279
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4070,11 +4128,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 129966814}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &129966813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4199,11 +4259,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 135448349}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &135448348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4328,11 +4390,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 138664427}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &138664426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4457,11 +4521,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 158948570}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &158948569
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4586,11 +4652,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 162538541}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &162538540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4715,11 +4783,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 164464613}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &164464612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4844,11 +4914,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 170111650}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &170111649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4973,11 +5045,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 174249879}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &174249878
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5498,11 +5572,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 197964694}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &197964693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5627,11 +5703,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 198725365}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &198725364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5756,11 +5834,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 199824728}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &199824727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5885,11 +5965,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 205521569}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &205521568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6014,11 +6096,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 206711092}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &206711091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6143,11 +6227,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 211180450}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &211180449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6272,11 +6358,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 234518571}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &234518570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6401,11 +6489,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 246181822}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &246181821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6530,11 +6620,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 257086069}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &257086068
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6659,11 +6751,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 264186093}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &264186092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6788,11 +6882,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 266312636}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &266312635
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6917,11 +7013,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 272168088}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &272168087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7046,11 +7144,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 275498375}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &275498374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7175,11 +7275,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 275674550}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &275674549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7304,11 +7406,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 279580073}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &279580072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7433,11 +7537,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 283540499}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &283540498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7562,11 +7668,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 291390764}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &291390763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7691,11 +7799,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 291846404}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &291846403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7820,11 +7930,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 294847018}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &294847017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7949,11 +8061,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 298752105}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &298752104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8078,11 +8192,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 301357513}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &301357512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8207,11 +8323,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 313281803}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &313281802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8336,11 +8454,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 314707121}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &314707120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8465,11 +8585,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 319240663}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &319240662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8594,11 +8716,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 324644946}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &324644945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8723,11 +8847,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 334589947}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &334589946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8852,11 +8978,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 340527381}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &340527380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8981,11 +9109,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 354749608}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &354749607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9110,11 +9240,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 359333619}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &359333618
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9239,11 +9371,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 365771059}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &365771058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9368,11 +9502,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 368224042}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &368224041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9497,11 +9633,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 375253366}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &375253365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9626,11 +9764,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 386321521}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &386321520
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9755,11 +9895,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 391204589}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &391204588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9884,11 +10026,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 403861056}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &403861055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10013,11 +10157,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 407406271}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &407406270
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10142,11 +10288,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 408117081}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &408117080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10271,11 +10419,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 415971287}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &415971286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10400,11 +10550,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 418297823}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &418297822
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10529,11 +10681,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 420733695}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &420733694
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10658,11 +10812,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 420923150}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &420923149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10787,11 +10943,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 441331373}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &441331372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10916,11 +11074,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 447787605}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &447787604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11045,11 +11205,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 449047680}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &449047679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11174,11 +11336,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 455979250}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &455979249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11303,11 +11467,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 460828089}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &460828088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11432,11 +11598,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 462045947}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &462045946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11561,11 +11729,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 463524226}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &463524225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11690,11 +11860,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 464761645}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &464761644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11819,11 +11991,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 466390542}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &466390541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11948,11 +12122,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 474819907}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &474819906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12077,11 +12253,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 477104038}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &477104037
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12206,11 +12384,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 494083481}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &494083480
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12335,11 +12515,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 503924336}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &503924335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12464,11 +12646,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 504082923}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &504082922
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12593,11 +12777,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 510967001}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &510967000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12722,11 +12908,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 511486085}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &511486084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12851,11 +13039,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 516429406}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &516429405
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13104,11 +13294,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 521256641}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &521256640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13233,11 +13425,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 531525824}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &531525823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13362,11 +13556,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 532341019}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &532341018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13491,11 +13687,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 532551589}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &532551588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13620,11 +13818,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 541226444}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &541226443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13749,11 +13949,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 544869886}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &544869885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13878,11 +14080,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 548112414}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &548112413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14007,11 +14211,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 557645250}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &557645249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14136,11 +14342,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 566337649}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &566337648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14316,11 +14524,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 575916407}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &575916406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14445,11 +14655,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 580771268}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &580771267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14574,11 +14786,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 589818795}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &589818794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14703,11 +14917,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 590419299}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &590419298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14832,11 +15048,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 590494266}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &590494265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14961,11 +15179,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 592701212}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &592701211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15090,11 +15310,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 601366242}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &601366241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15219,11 +15441,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 604455943}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &604455942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15348,11 +15572,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 606759241}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &606759240
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15477,11 +15703,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 610426347}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &610426346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15606,11 +15834,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 613899398}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &613899397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15735,11 +15965,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 615248373}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &615248372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15864,11 +16096,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 615342348}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &615342347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15993,11 +16227,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 632596504}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &632596503
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16122,11 +16358,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 633941728}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &633941727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16251,11 +16489,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 660397097}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &660397096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16380,11 +16620,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 662665703}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &662665702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16509,11 +16751,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 665623331}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &665623330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16638,11 +16882,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 670589255}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &670589254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16767,11 +17013,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 678347958}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &678347957
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16896,11 +17144,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 679953442}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &679953441
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17025,11 +17275,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 681821268}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &681821267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17154,11 +17406,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 682496484}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &682496483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17283,11 +17537,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 682541236}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &682541235
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17412,11 +17668,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 684084136}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &684084135
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18021,11 +18279,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 692355788}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &692355787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18150,11 +18410,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 694992450}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &694992449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18279,11 +18541,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 695726413}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &695726412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18408,11 +18672,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 699791021}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &699791020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18537,11 +18803,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 700475817}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &700475816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18666,11 +18934,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 711358978}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &711358977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18795,11 +19065,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 712679550}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &712679549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18924,11 +19196,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 724797088}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &724797087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19053,11 +19327,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 727891336}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &727891335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19182,11 +19458,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 730221705}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &730221704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19311,11 +19589,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 739738363}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &739738362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19440,11 +19720,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 743757622}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &743757621
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19569,11 +19851,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 746443377}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &746443376
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19698,11 +19982,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 757070793}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &757070792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19827,11 +20113,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 760656196}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &760656195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19956,11 +20244,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 761654047}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &761654046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20085,11 +20375,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 775001877}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &775001876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20214,11 +20506,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 776341765}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &776341764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20343,11 +20637,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 777881418}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &777881417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25052,11 +25348,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 780653109}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &780653108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25181,11 +25479,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 782546005}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &782546004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25310,11 +25610,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 787455223}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &787455222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25439,11 +25741,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 799479838}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &799479837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25568,11 +25872,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 805348384}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &805348383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25697,11 +26003,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 806139190}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &806139189
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25826,11 +26134,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 806964775}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &806964774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25955,11 +26265,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 828624935}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &828624934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26084,11 +26396,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 828684640}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &828684639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26213,11 +26527,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 834203078}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &834203077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26342,11 +26658,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 834876824}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &834876823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26471,11 +26789,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 837619208}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &837619207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26600,11 +26920,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 849901920}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &849901919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26729,11 +27051,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 851542649}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &851542648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26858,11 +27182,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 851649169}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &851649168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26987,11 +27313,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 852691984}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &852691983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27116,11 +27444,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 861521654}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &861521653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27245,11 +27575,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 865431228}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &865431227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27374,11 +27706,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 866396369}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &866396368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27503,11 +27837,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 869722591}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &869722590
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27632,11 +27968,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 870329328}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &870329327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27761,11 +28099,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 870851943}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &870851942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27890,11 +28230,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 871402961}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &871402960
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28019,11 +28361,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 873554505}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &873554504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28148,11 +28492,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 884793935}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &884793934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28277,11 +28623,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 904397030}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &904397029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28406,11 +28754,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 906045679}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &906045678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28535,11 +28885,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 914287389}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &914287388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28664,11 +29016,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 923405004}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &923405003
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28793,11 +29147,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 925675690}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &925675689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28922,11 +29278,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 929536308}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &929536307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29051,11 +29409,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 931918646}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &931918645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29180,11 +29540,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 934767566}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &934767565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29375,11 +29737,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 941634491}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &941634490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29504,11 +29868,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 949506798}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &949506797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29633,11 +29999,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 958489797}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &958489796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29762,11 +30130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 961799334}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &961799333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29891,11 +30261,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 961931327}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &961931326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30020,11 +30392,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 967884349}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &967884348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30196,11 +30570,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 975566793}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &975566792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30325,11 +30701,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 977550109}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &977550108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30454,11 +30832,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 979017896}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &979017895
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30583,11 +30963,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 990126244}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &990126243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30712,11 +31094,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1001596879}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1001596878
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30841,11 +31225,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1002673830}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1002673829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30970,11 +31356,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1015712062}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1015712061
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31099,11 +31487,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1018640986}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1018640985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31228,11 +31618,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1019960552}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1019960551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31357,11 +31749,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1028035255}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1028035254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31486,11 +31880,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1045324106}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1045324105
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31658,11 +32054,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1053691271}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1053691270
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31787,11 +32185,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1054126720}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1054126719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31916,11 +32316,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1059353155}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1059353154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32045,11 +32447,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1060196876}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1060196875
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32174,11 +32578,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1071184430}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1071184429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32303,11 +32709,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1086029337}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1086029336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32432,11 +32840,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1115092555}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1115092554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32561,11 +32971,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1117979715}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1117979714
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32690,11 +33102,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1123882069}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1123882068
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32819,11 +33233,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1126317578}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1126317577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34344,11 +34760,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1137685504}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1137685503
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34473,11 +34891,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1139716340}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1139716339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34602,11 +35022,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1140859261}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1140859260
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34731,11 +35153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1145713770}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1145713769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34860,11 +35284,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1148148249}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1148148248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34989,11 +35415,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1154385043}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1154385042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35118,11 +35546,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1161207523}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1161207522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35247,11 +35677,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1163936938}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1163936937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35376,11 +35808,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1168987796}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1168987795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35505,11 +35939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1169548402}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1169548401
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35634,11 +36070,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1172140046}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1172140045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35763,11 +36201,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1173259211}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1173259210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35892,11 +36332,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1179028985}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1179028984
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36021,11 +36463,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1179581140}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1179581139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36150,11 +36594,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1186103887}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1186103886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36279,11 +36725,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1188966256}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1188966255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36408,11 +36856,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1189284046}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1189284045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36537,11 +36987,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1194227083}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1194227082
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36666,11 +37118,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1197035822}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1197035821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36795,11 +37249,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1197613454}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1197613453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36924,11 +37380,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1197818404}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1197818403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37053,11 +37511,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1204579103}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1204579102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37182,11 +37642,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1210056312}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1210056311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37311,11 +37773,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1228855501}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1228855500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37440,11 +37904,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1234948551}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1234948550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37569,11 +38035,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1241108717}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1241108716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37698,11 +38166,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1246409915}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1246409914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37827,11 +38297,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1246854140}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1246854139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37956,11 +38428,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1250397617}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1250397616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38085,11 +38559,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1254161746}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1254161745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38214,11 +38690,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1254317525}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1254317524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38343,11 +38821,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1271549919}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1271549918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38472,11 +38952,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1272555413}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1272555412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38601,11 +39083,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1274287531}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1274287530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38730,11 +39214,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1276592591}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1276592590
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38859,11 +39345,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1279480722}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1279480721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38988,11 +39476,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1281484348}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1281484347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39117,11 +39607,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1281800709}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1281800708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39246,11 +39738,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1290463698}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1290463697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39375,11 +39869,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1290526179}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1290526178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39504,11 +40000,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1297214647}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1297214646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39633,11 +40131,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1300439365}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1300439364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39762,11 +40262,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1300725240}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1300725239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39891,11 +40393,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1309210017}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1309210016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40020,11 +40524,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1310254344}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1310254343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40149,11 +40655,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1317158329}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1317158328
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40278,11 +40786,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1318929073}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1318929072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40407,11 +40917,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1326449654}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1326449653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40536,11 +41048,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1336375155}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1336375154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40665,11 +41179,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1339114580}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1339114579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40794,11 +41310,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1339414297}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1339414296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40923,11 +41441,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1339977614}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1339977613
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41052,11 +41572,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1342021781}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1342021780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41181,11 +41703,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1347437467}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1347437466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41310,11 +41834,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1361152426}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1361152425
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41439,11 +41965,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1364293719}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1364293718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41568,11 +42096,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1371167097}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1371167096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41697,11 +42227,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1373851390}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1373851389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41826,11 +42358,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1382154589}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1382154588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41955,11 +42489,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1386012177}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1386012176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42084,11 +42620,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1389371529}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1389371528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42219,11 +42757,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1397847792}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1397847791
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42348,11 +42888,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1411847137}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1411847136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42537,11 +43079,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1417887226}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1417887225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42666,11 +43210,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1424467571}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1424467570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42795,11 +43341,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1430368491}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1430368490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42924,11 +43472,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1431757014}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1431757013
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43053,11 +43603,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1433594157}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1433594156
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43182,11 +43734,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1435869467}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1435869466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43311,11 +43865,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1443546871}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1443546870
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43440,11 +43996,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1446378870}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1446378869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43569,11 +44127,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1456511330}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1456511329
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43698,11 +44258,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1458670116}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1458670115
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43827,11 +44389,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1463840224}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1463840223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43956,11 +44520,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1463892824}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1463892823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44085,11 +44651,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1464256109}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1464256108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44214,11 +44782,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1475329598}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1475329597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44343,11 +44913,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1479316137}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1479316136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44472,11 +45044,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1488194468}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1488194467
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44601,11 +45175,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1498862293}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1498862292
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44730,11 +45306,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1502037650}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1502037649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44859,11 +45437,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1502496614}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1502496613
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44988,11 +45568,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1503151787}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1503151786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45117,11 +45699,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1505713606}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1505713605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45246,11 +45830,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1508102707}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1508102706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45375,11 +45961,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1516171323}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1516171322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45504,11 +46092,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1516408729}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1516408728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45633,11 +46223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1518911872}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1518911871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45762,11 +46354,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1521317428}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1521317427
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45891,11 +46485,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1528108755}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1528108754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46020,11 +46616,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1528896295}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1528896294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46149,11 +46747,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1530316870}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1530316869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46278,11 +46878,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1530453964}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1530453963
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46407,11 +47009,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1539755642}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1539755641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46536,11 +47140,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1542050706}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1542050705
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46665,11 +47271,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1548294189}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1548294188
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46794,11 +47402,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1548495373}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1548495372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46923,11 +47533,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1561929926}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1561929925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47052,11 +47664,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1572026216}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1572026215
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47181,11 +47795,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1572520824}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1572520823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47310,11 +47926,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1572891162}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1572891161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47439,11 +48057,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1577046132}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1577046131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47568,11 +48188,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1578904131}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1578904130
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47697,11 +48319,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1580915901}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1580915900
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47826,11 +48450,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1583961857}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1583961856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47955,11 +48581,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1588254448}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1588254447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48084,11 +48712,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1591581859}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1591581858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48213,11 +48843,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1593847659}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1593847658
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48342,11 +48974,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1595283708}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1595283707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48471,11 +49105,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1599255248}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1599255247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48600,11 +49236,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1602615180}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1602615179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48729,11 +49367,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1602981124}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1602981123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48858,11 +49498,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1603891930}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1603891929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48987,11 +49629,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1605906143}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1605906142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49116,11 +49760,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1606207892}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1606207891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49245,11 +49891,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1607131140}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1607131139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49374,11 +50022,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1608639701}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1608639700
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49503,11 +50153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1609285836}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1609285835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49632,11 +50284,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1614181550}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1614181549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49761,11 +50415,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1616034469}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1616034468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49902,11 +50558,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1618560770}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1618560769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50031,11 +50689,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1624557550}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1624557549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50160,11 +50820,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1625435341}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1625435340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50289,11 +50951,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1626599194}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1626599193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50418,11 +51082,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1634817945}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1634817944
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50547,11 +51213,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1647176440}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1647176439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50676,11 +51344,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1654017244}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1654017243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50805,11 +51475,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1660468335}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1660468334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50934,11 +51606,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1663405778}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1663405777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51063,11 +51737,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1663999392}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1663999391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51192,11 +51868,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1665870134}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1665870133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51321,11 +51999,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1666377613}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1666377612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51450,11 +52130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1666377759}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1666377758
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51579,11 +52261,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1671295931}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1671295930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51708,11 +52392,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1677305091}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1677305090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51837,11 +52523,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1680367062}
+  GridViewColor: {r: 0, g: 0.60784316, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 1
   StartingLocationColor: {r: 0, g: 0.6059618, b: 1, a: 0.09803922}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1680367061
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51966,11 +52654,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1686126342}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1686126341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52095,11 +52785,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1689797815}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1689797814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52256,11 +52948,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1695038988}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1695038987
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52385,11 +53079,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1699501964}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1699501963
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52514,11 +53210,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1704329308}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1704329307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52643,11 +53341,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1710514863}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1710514862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52772,11 +53472,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1711681587}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1711681586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52901,11 +53603,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1713402512}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1713402511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53030,11 +53734,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1715300641}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1715300640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53159,11 +53865,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1727890725}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1727890724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53288,11 +53996,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1743782983}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1743782982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53417,11 +54127,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1752011025}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1752011024
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53546,11 +54258,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1758605569}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1758605568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53675,11 +54389,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1759454679}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1759454678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53804,11 +54520,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1759523890}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1759523889
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53933,11 +54651,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1762750662}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1762750661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54062,11 +54782,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1763908722}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1763908721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54191,11 +54913,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1764428795}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1764428794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54320,11 +55044,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1764548677}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1764548676
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54449,11 +55175,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1765893657}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1765893656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54578,11 +55306,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1767978957}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1767978956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54707,11 +55437,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1769639147}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1769639146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54836,11 +55568,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1787002461}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1787002460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54965,11 +55699,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1803438142}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1803438141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55094,11 +55830,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1819687395}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1819687394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55223,11 +55961,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1820611681}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1820611680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55352,11 +56092,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1821757403}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1821757402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55481,11 +56223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1828929064}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1828929063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55610,11 +56354,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1830986307}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1830986306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56211,11 +56957,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1842306488}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1842306487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56340,11 +57088,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1847890934}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1847890933
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56469,11 +57219,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1848004266}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1848004265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56598,11 +57350,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1848897714}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1848897713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56727,11 +57481,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1851004517}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1851004516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56856,11 +57612,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1863035227}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1863035226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56985,11 +57743,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1864835382}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1864835381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57114,11 +57874,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1865915211}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1865915210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57243,11 +58005,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1867883828}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1867883827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57372,11 +58136,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1871775543}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1871775542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57501,11 +58267,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1872617458}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1872617457
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57630,11 +58398,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1874309810}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1874309809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57759,11 +58529,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1875198153}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1875198152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57888,11 +58660,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1882584110}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1882584109
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58017,11 +58791,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1883773485}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1883773484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58146,11 +58922,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1886590804}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1886590803
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58275,11 +59053,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1889300489}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1889300488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58404,11 +59184,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1895133594}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1895133593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58533,11 +59315,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1895795592}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1895795591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58662,11 +59446,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1910212114}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1910212113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58791,11 +59577,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1911362343}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1911362342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58920,11 +59708,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1911814531}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1911814530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59049,11 +59839,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1926059065}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1926059064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59178,11 +59970,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1928698040}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1928698039
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59307,11 +60101,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1932136909}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1932136908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59436,11 +60232,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1932702341}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1932702340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59565,11 +60363,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1937975662}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1937975661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59694,11 +60494,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1943261295}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1943261294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59823,11 +60625,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1947704455}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1947704454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59952,11 +60756,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1958413118}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1958413117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60081,11 +60887,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1988680557}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1988680556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60210,11 +61018,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1993007221}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1993007220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60339,11 +61149,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 1998197803}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &1998197802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60468,11 +61280,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2005103929}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2005103928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60597,11 +61411,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2027217284}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2027217283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60726,11 +61542,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2030519307}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2030519306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60855,11 +61673,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2035445010}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2035445009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60984,11 +61804,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2045806065}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2045806064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61157,11 +61979,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2060286177}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2060286176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61286,11 +62110,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2068967780}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2068967779
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61415,11 +62241,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2084077654}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2084077653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61544,11 +62372,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2084975854}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2084975853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61673,11 +62503,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2097262092}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2097262091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61802,11 +62634,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2097371312}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2097371311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61931,11 +62765,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2104257575}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2104257574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62060,11 +62896,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2105882660}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2105882659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62189,11 +63027,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2110236648}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2110236647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62318,11 +63158,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2111756032}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2111756031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62447,11 +63289,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2112433815}
+  GridViewColor: {r: 1, g: 0, b: 0, a: 0.43137255}
   highlightColor: {r: 1, g: 0, b: 0, a: 0.09803922}
   obstacle: 1
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2112433814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62576,11 +63420,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2135293038}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2135293037
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62705,11 +63551,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2139054170}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2139054169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62834,11 +63682,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Renderer: {fileID: 2141267996}
+  GridViewColor: {r: 1, g: 1, b: 1, a: 0.43137255}
   highlightColor: {r: 1, g: 1, b: 1, a: 0.09803922}
   obstacle: 0
   StartingLocation: 0
   StartingLocationColor: {r: 0, g: 0, b: 0, a: 0}
   OccupiedUnit: {fileID: 0}
+  GameStarted: 0
 --- !u!61 &2141267995
 BoxCollider2D:
   m_ObjectHideFlags: 0
