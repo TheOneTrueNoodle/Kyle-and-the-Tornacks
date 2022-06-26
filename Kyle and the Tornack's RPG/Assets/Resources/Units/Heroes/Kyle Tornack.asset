@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Kyle Tornack
   m_EditorClassIdentifier: 
   Faction: 0
+  UnitPrefab: {fileID: 0}
+  CharName: Kyle Tornack
+  CharPortrait: {fileID: 21300000, guid: 3d10389404f85654d9a76e3e5d8f56bc, type: 3}
