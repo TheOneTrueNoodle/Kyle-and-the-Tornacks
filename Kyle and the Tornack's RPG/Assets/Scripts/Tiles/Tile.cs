@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer Renderer;
+    [SerializeField] private Color GridViewColor;
     [SerializeField] private Color highlightColor;
 
     public bool obstacle;
@@ -15,10 +16,7 @@ public class Tile : MonoBehaviour
     public BaseUnit OccupiedUnit;
     public bool Walkable => obstacle == false && OccupiedUnit == null;
 
-    private void Start()
-    {
-        Renderer.enabled = false;
-    }
+    [HideInInspector] public bool GameStarted = false;
 
     private void OnMouseEnter()
     {
@@ -28,7 +26,14 @@ public class Tile : MonoBehaviour
 
     private void OnMouseExit()
     {
-        Renderer.enabled = false;
+        if(GameStarted == false)
+        {
+            Renderer.color = GridViewColor;
+        }
+        else
+        {
+            Renderer.enabled = false;
+        }
     }
 
     public void SetUnit(BaseUnit unit)
