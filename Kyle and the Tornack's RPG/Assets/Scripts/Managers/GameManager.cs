@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
                 GridManager.Instance.FindGrid();
                 break;
             case GameState.SelectStartPositions:
-
+                BattleSetupManager.Instance.SelectHeroes();
                 break;
             case GameState.PlayerTurn:
                 break;

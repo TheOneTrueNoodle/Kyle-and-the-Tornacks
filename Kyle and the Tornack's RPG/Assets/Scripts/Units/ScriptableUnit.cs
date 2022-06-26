@@ -8,6 +8,8 @@ public class ScriptableUnit : ScriptableObject
     public Faction Faction;
     public BaseUnit UnitPrefab;
 
+    public bool SkullToken;
+    public bool DeadorInjured;
     public string CharName;
     public Sprite CharPortrait;
 }
