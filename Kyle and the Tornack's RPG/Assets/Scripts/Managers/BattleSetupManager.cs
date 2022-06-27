@@ -19,9 +19,12 @@ public class BattleSetupManager : MonoBehaviour
     public GameObject LessThanSix;
 
     //Position Select Screen
+    [SerializeField] private GameObject PositionSelectUI;
     private bool HeroesSpawned = false;
     [SerializeField] private CameraMoveControl camControl;
     [SerializeField] private CameraZoomControl camZoom;
+
+    public BaseUnit SelectedUnit;
 
     private void Awake()
     {
@@ -95,12 +98,14 @@ public class BattleSetupManager : MonoBehaviour
     {
         LessThanSix.SetActive(false);
         CharacterSelectUI.SetActive(false);
+        GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
     }
 
     public void SelectStartingPositions()
     {
         if(HeroesSpawned != true)
         {
+            PositionSelectUI.SetActive(true);
             camControl.enabled = true;
             camZoom.enabled = true;
 
@@ -116,5 +121,15 @@ public class BattleSetupManager : MonoBehaviour
         {
 
         }
+    }
+
+    public void SetSelectedUnit(BaseUnit unit)
+    {
+        SelectedUnit = unit;
+    }
+
+    public void StartBattle()
+    {
+
     }
 }
