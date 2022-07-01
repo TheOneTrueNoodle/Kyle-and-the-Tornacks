@@ -15,7 +15,14 @@ MonoBehaviour:
   Faction: 0
   UnitPrefab: {fileID: 4708328231516747468, guid: 50003be88036a164c8a3b85a5b65dcfc,
     type: 3}
-  SkullToken: 0
+  SkullToken: 1
   DeadorInjured: 0
   CharName: Seven
   CharPortrait: {fileID: 21300000, guid: 5e3d8b08991ec5b4abf15e4a0cca55e8, type: 3}
+  BaseVigor: 5
+  BaseStamina: 2
+  BaseStrength: 4
+  BaseSkill: 3
+  BaseIntelligence: 1
+  BaseFaith: 3
+  BaseWillpower: 2

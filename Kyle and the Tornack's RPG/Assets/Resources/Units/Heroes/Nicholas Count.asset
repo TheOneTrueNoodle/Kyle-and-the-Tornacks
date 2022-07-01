@@ -19,3 +19,10 @@ MonoBehaviour:
   DeadorInjured: 0
   CharName: Nicholas Count
   CharPortrait: {fileID: 21300000, guid: f0f87b21fee6f3e41a6b2cd00cf6db08, type: 3}
+  BaseVigor: 3
+  BaseStamina: 5
+  BaseStrength: 2
+  BaseSkill: 4
+  BaseIntelligence: 3
+  BaseFaith: 2
+  BaseWillpower: 1

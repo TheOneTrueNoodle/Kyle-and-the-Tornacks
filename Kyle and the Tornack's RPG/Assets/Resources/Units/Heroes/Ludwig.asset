@@ -19,3 +19,10 @@ MonoBehaviour:
   DeadorInjured: 0
   CharName: Ludwig
   CharPortrait: {fileID: 21300000, guid: af2d9584e73b89b4bb72057e43799a57, type: 3}
+  BaseVigor: 3
+  BaseStamina: 3
+  BaseStrength: 2
+  BaseSkill: 5
+  BaseIntelligence: 4
+  BaseFaith: 1
+  BaseWillpower: 2

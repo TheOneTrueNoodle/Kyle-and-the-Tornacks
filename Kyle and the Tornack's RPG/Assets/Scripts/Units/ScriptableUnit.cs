@@ -12,6 +12,8 @@ public class ScriptableUnit : ScriptableObject
     public bool DeadorInjured;
     public string CharName;
     public Sprite CharPortrait;
+
+    public float BaseVigor, BaseStamina, BaseStrength, BaseSkill, BaseIntelligence, BaseFaith, BaseWillpower;
 }
 
 public enum Faction

@@ -19,6 +19,11 @@ public class UnitSelectButton : MonoBehaviour
         ThisUnit = Unit;
     }
 
+    public void MouseOverButton()
+    {
+        BattleSetupManager.Instance.CharacterInfo(CharPortrait.sprite, ThisUnit.BaseVigor, ThisUnit.BaseStamina, ThisUnit.BaseStrength, ThisUnit.BaseSkill, ThisUnit.BaseIntelligence, ThisUnit.BaseFaith, ThisUnit.BaseWillpower);
+    }
+
     public void OnClick()
     {
         if(BattleSetupManager.Instance.SelectedUnits.Count != 0)

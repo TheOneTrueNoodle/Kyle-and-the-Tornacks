@@ -18,3 +18,10 @@ MonoBehaviour:
   DeadorInjured: 0
   CharName: Zorn
   CharPortrait: {fileID: 21300000, guid: 7daa568a60ecb3149b2c116fb9fde110, type: 3}
+  BaseVigor: 3
+  BaseStamina: 4
+  BaseStrength: 1
+  BaseSkill: 5
+  BaseIntelligence: 3
+  BaseFaith: 2
+  BaseWillpower: 2

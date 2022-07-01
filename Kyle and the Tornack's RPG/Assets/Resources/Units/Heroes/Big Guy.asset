@@ -19,3 +19,10 @@ MonoBehaviour:
   DeadorInjured: 0
   CharName: Big Guy
   CharPortrait: {fileID: 21300000, guid: 9b9749f961a4202438ebbd642aa89d05, type: 3}
+  BaseVigor: 4
+  BaseStamina: 2
+  BaseStrength: 5
+  BaseSkill: 3
+  BaseIntelligence: 2
+  BaseFaith: 3
+  BaseWillpower: 1

@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 55a297f79b77f0741bfe79f53f88eb69, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a6e279b25d263349bf5466de78ab6f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,4 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe70e76362615a4494afbafe9dfb3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OccupiedTile: {fileID: 0}
+  faction: 0
   charName: Ludwig

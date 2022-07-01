@@ -15,7 +15,14 @@ MonoBehaviour:
   Faction: 0
   UnitPrefab: {fileID: 3420033761106883476, guid: fbc8ef2b9070c7841a92327a43a05727,
     type: 3}
-  SkullToken: 0
+  SkullToken: 1
   DeadorInjured: 0
   CharName: Vasuki
   CharPortrait: {fileID: 21300000, guid: 320c393e50bc341459bc59aaaa2e2db7, type: 3}
+  BaseVigor: 3
+  BaseStamina: 5
+  BaseStrength: 4
+  BaseSkill: 3
+  BaseIntelligence: 2
+  BaseFaith: 1
+  BaseWillpower: 2

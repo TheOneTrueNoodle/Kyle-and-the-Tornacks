@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class BattleSetupManager : MonoBehaviour
@@ -25,6 +26,10 @@ public class BattleSetupManager : MonoBehaviour
     [SerializeField] private CameraZoomControl camZoom;
 
     public BaseUnit SelectedUnit;
+
+    //CharacterInfoUI
+    [SerializeField] private Image InfoPortrait;
+    [SerializeField] private TMP_Text VigorDisp, StaminaDisp, StrengthDisp, SkillDisp, IntelligenceDisp, FaithDisp, WillpowerDisp;
 
     private void Awake()
     {
@@ -112,15 +117,25 @@ public class BattleSetupManager : MonoBehaviour
             foreach(ScriptableUnit Hero in SelectedUnits)
             {
                 var spawnedHero = Instantiate(Hero.UnitPrefab);
+                spawnedHero.UnitData = Hero;
+                spawnedHero.SetStats();
                 var randomSpawnTile = GridManager.Instance.GetHeroSpawnTile();
 
                 randomSpawnTile.SetUnit(spawnedHero);
             }
         }
-        else
-        {
+    }
 
-        }
+    public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Strength, float Skill, float Intelligence, float Faith, float Willpower)
+    {
+        InfoPortrait.sprite = Portrait;
+        VigorDisp.text = "Vigor: " + Vigor;
+        StaminaDisp.text = "Stamina: " + Stamina;
+        StrengthDisp.text = "Strength: " + Strength;
+        SkillDisp.text = "Skill: " + Skill;
+        IntelligenceDisp.text = "Intelligence: " + Intelligence;
+        FaithDisp.text = "Faith: " + Faith;
+        WillpowerDisp.text = "Willpower: " + Willpower;
     }
 
     public void SetSelectedUnit(BaseUnit unit)
