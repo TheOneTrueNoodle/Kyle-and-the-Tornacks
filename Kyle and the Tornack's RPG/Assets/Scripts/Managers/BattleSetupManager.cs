@@ -34,6 +34,10 @@ public class BattleSetupManager : MonoBehaviour
     public Color UnitMovedColor = new Color(103, 103, 103, 255);
     public Color DefaultColor = new Color(255, 255, 255, 255);
 
+    //For enemy units, we shall have a list of enemies and a tile paired together
+    public List<ScriptableUnit> Enemies;
+    public List<Tile> EnemySpawnTile;
+
     private void Awake()
     {
         Instance = this;
@@ -109,26 +113,6 @@ public class BattleSetupManager : MonoBehaviour
         GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
     }
 
-    public void SelectStartingPositions()
-    {
-        if(HeroesSpawned != true)
-        {
-            PositionSelectUI.SetActive(true);
-            camControl.enabled = true;
-            camZoom.enabled = true;
-
-            foreach(ScriptableUnit Hero in SelectedUnits)
-            {
-                var spawnedHero = Instantiate(Hero.UnitPrefab);
-                spawnedHero.UnitData = Hero;
-                spawnedHero.SetStats();
-                var randomSpawnTile = GridManager.Instance.GetHeroSpawnTile();
-
-                randomSpawnTile.SetUnit(spawnedHero);
-            }
-        }
-    }
-
     public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Strength, float Skill, float Intelligence, float Faith, float Willpower)
     {
         InfoPortrait.sprite = Portrait;
@@ -156,9 +140,51 @@ public class BattleSetupManager : MonoBehaviour
         SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
         SelectedUnit = null;
     }
+    public void SelectStartingPositions()
+    {
+        if (HeroesSpawned != true)
+        {
+            PositionSelectUI.SetActive(true);
+            camControl.enabled = true;
+            camZoom.enabled = true;
+
+            foreach (ScriptableUnit Hero in SelectedUnits)
+            {
+                var spawnedHero = Instantiate(Hero.UnitPrefab);
+                spawnedHero.UnitData = Hero;
+                spawnedHero.SetStats();
+                var randomSpawnTile = GridManager.Instance.GetHeroSpawnTile();
+
+                randomSpawnTile.SetUnit(spawnedHero);
+            }
+
+            for (int i = 0; i < Enemies.Count; i++)
+            {
+                var spawnedEnemy = Instantiate(Enemies[i].UnitPrefab);
+                spawnedEnemy.UnitData = Enemies[i];
+                spawnedEnemy.SetStats();
+                EnemySpawnTile[i].SetUnit(spawnedEnemy);
+            }
+
+            HeroesSpawned = true;
+        }
+    }
 
     public void StartBattle()
     {
+        //When this is clicked it...
 
+        //Turn off position select ui DONE
+        //Changes all the tiles in the grid manager to not use their grid view DONE
+        //Changes game state to players turn DONE
+        //Spawns enemy units 
+
+        //Afterwards we need a combat loop manager to replace this battlesetupmanager as it has run its functions... Find what relies on this and figure out a work around.
+
+        //LETS GO
+        PositionSelectUI.SetActive(false);
+        GridManager.Instance.GridView();
+
+        GameManager.Instance.ChangeState(GameManager.GameState.PlayerTurn);
     }
 }

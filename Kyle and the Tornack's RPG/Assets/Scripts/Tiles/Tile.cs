@@ -5,13 +5,16 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer Renderer;
+
+    private Color CurrentDefaultColor;
     [SerializeField] private Color GridViewColor;
     [SerializeField] private Color highlightColor;
+    public Color HeroHighlightColor;
+    public Color EnemyHighlightColor;
 
     public bool obstacle;
 
     public bool StartingLocation;
-    [SerializeField] private Color StartingLocationColor;
 
     public BaseUnit OccupiedUnit;
     public bool Walkable => obstacle == false && OccupiedUnit == null;
@@ -21,12 +24,31 @@ public class Tile : MonoBehaviour
     private void OnMouseEnter()
     {
         Renderer.enabled = true;
-        Renderer.color = highlightColor;
+
+        if(OccupiedUnit != null)
+        {
+            if(OccupiedUnit.faction == Faction.Hero)
+            {
+                Renderer.color = HeroHighlightColor;
+            }
+            else if(OccupiedUnit.faction == Faction.Enemy)
+            {
+                Renderer.color = EnemyHighlightColor;
+            }
+        }
+        else
+        {
+            Renderer.color = highlightColor;
+        }
     }
 
     private void OnMouseExit()
     {
-        if (GameStarted == false)
+        if(GameManager.Instance.state == GameManager.GameState.SelectUnits)
+        {
+            Renderer.color = GridViewColor;
+        }
+        else if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
         {
             Renderer.color = GridViewColor;
         }
@@ -100,13 +122,13 @@ public class Tile : MonoBehaviour
     }
 
     public void SetUnit(BaseUnit unit)
-{
-    if (unit.OccupiedTile != null)
     {
-        unit.OccupiedTile.OccupiedUnit = null;
-    }
+        if (unit.OccupiedTile != null)
+        {
+            unit.OccupiedTile.OccupiedUnit = null;
+        }
     unit.transform.position = transform.position;
     OccupiedUnit = unit;
     unit.OccupiedTile = this;
-}
+    }
 }

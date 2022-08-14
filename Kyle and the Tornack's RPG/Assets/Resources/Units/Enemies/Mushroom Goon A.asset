@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: Mushroom Goon A
   m_EditorClassIdentifier: 
   Faction: 1
-  UnitPrefab: {fileID: 0}
+  UnitPrefab: {fileID: 721770660289496115, guid: 56e05760b9ff1d64b8cf37abd40b31fe,
+    type: 3}
+  SkullToken: 0
+  DeadorInjured: 0
+  CharName: 
+  CharPortrait: {fileID: 0}
+  BaseVigor: 1
+  BaseStamina: 1
+  BaseStrength: 1
+  BaseSkill: 1
+  BaseIntelligence: 1
+  BaseFaith: 1
+  BaseWillpower: 1

@@ -47,6 +47,14 @@ public class GridManager : MonoBehaviour
         return Tiles.Where(t => t.Value.StartingLocation && t.Value.Walkable).OrderBy(tag => Random.value).First().Value;
     }
 
+    public void GridView()
+    {
+        foreach (Tile tile in tileGrid)
+        {
+            tile.GetComponent<SpriteRenderer>().enabled = false;
+        }
+    }
+
     void GenerateGrid()
     {
         for (int x = 0; x < width; x++)
