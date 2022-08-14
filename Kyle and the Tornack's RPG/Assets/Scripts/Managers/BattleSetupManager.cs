@@ -25,11 +25,14 @@ public class BattleSetupManager : MonoBehaviour
     [SerializeField] private CameraMoveControl camControl;
     [SerializeField] private CameraZoomControl camZoom;
 
-    public BaseUnit SelectedUnit;
-
     //CharacterInfoUI
     [SerializeField] private Image InfoPortrait;
     [SerializeField] private TMP_Text VigorDisp, StaminaDisp, StrengthDisp, SkillDisp, IntelligenceDisp, FaithDisp, WillpowerDisp;
+    
+    public BaseUnit SelectedUnit;
+    public Color SelectedColor = new Color(88, 153, 255, 255);
+    public Color UnitMovedColor = new Color(103, 103, 103, 255);
+    public Color DefaultColor = new Color(255, 255, 255, 255);
 
     private void Awake()
     {
@@ -140,7 +143,18 @@ public class BattleSetupManager : MonoBehaviour
 
     public void SetSelectedUnit(BaseUnit unit)
     {
+        if(SelectedUnit != null)
+        {
+            UnselectUnit();
+        }
         SelectedUnit = unit;
+        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = SelectedColor;
+    }
+
+    public void UnselectUnit()
+    {
+        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
+        SelectedUnit = null;
     }
 
     public void StartBattle()

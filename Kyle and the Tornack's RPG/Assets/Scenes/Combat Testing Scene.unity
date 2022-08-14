@@ -14576,7 +14576,6 @@ MonoBehaviour:
   PositionSelectUI: {fileID: 462202732}
   camControl: {fileID: 6717879}
   camZoom: {fileID: 6717878}
-  SelectedUnit: {fileID: 0}
   InfoPortrait: {fileID: 884137856}
   VigorDisp: {fileID: 922970233}
   StaminaDisp: {fileID: 1552737200}
@@ -14585,6 +14584,10 @@ MonoBehaviour:
   IntelligenceDisp: {fileID: 984694576}
   FaithDisp: {fileID: 604905251}
   WillpowerDisp: {fileID: 1295871340}
+  SelectedUnit: {fileID: 0}
+  SelectedColor: {r: 0.34509805, g: 0.6, b: 1, a: 255}
+  UnitMovedColor: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+  DefaultColor: {r: 1, g: 1, b: 1, a: 255}
 --- !u!4 &574396219
 Transform:
   m_ObjectHideFlags: 0

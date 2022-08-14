@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BaseUnit : MonoBehaviour
 {
-    public Tile OccupiedTile;
     public Faction faction;
     public ScriptableUnit UnitData;
+
+    public Tile OccupiedTile;
 
     public float BaseVigor, BaseStamina, BaseStrength, BaseSkill, BaseIntelligence, BaseFaith, BaseWillpower;
 

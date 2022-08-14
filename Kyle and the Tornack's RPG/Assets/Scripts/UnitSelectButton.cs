@@ -24,7 +24,7 @@ public class UnitSelectButton : MonoBehaviour
         BattleSetupManager.Instance.CharacterInfo(CharPortrait.sprite, ThisUnit.BaseVigor, ThisUnit.BaseStamina, ThisUnit.BaseStrength, ThisUnit.BaseSkill, ThisUnit.BaseIntelligence, ThisUnit.BaseFaith, ThisUnit.BaseWillpower);
     }
 
-    public void OnClick()
+    public void Clicked()
     {
         if(BattleSetupManager.Instance.SelectedUnits.Count != 0)
         {
