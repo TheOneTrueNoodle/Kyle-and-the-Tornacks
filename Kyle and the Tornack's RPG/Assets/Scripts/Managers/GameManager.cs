@@ -33,9 +33,8 @@ public class GameManager : MonoBehaviour
             case GameState.SelectStartPositions:
                 BattleSetupManager.Instance.SelectStartingPositions();
                 break;
-            case GameState.PlayerTurn:
-                break;
-            case GameState.EnemyTurn:
+            case GameState.CombatLoop:
+                BattleManager.Instance.CreateInitiativeOrder();
                 break;
             case GameState.Victory:
                 break;
@@ -50,8 +49,7 @@ public class GameManager : MonoBehaviour
         FindGameplayGrid,
         SelectUnits,
         SelectStartPositions,
-        PlayerTurn,
-        EnemyTurn,
+        CombatLoop,
         Victory,
         Defeat
     }

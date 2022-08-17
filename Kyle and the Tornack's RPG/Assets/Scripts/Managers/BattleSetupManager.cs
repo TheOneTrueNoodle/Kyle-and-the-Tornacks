@@ -156,6 +156,9 @@ public class BattleSetupManager : MonoBehaviour
                 var randomSpawnTile = GridManager.Instance.GetHeroSpawnTile();
 
                 randomSpawnTile.SetUnit(spawnedHero);
+
+                spawnedHero.speed = (int)(spawnedHero.Skill + Random.Range(1, 10));
+                BattleManager.Instance.AllUnits.Add(spawnedHero);
             }
 
             for (int i = 0; i < Enemies.Count; i++)
@@ -164,6 +167,8 @@ public class BattleSetupManager : MonoBehaviour
                 spawnedEnemy.UnitData = Enemies[i];
                 spawnedEnemy.SetStats();
                 EnemySpawnTile[i].SetUnit(spawnedEnemy);
+                spawnedEnemy.speed = (int)(spawnedEnemy.Skill + Random.Range(1, 10));
+                BattleManager.Instance.AllUnits.Add(spawnedEnemy);
             }
 
             HeroesSpawned = true;
@@ -185,6 +190,6 @@ public class BattleSetupManager : MonoBehaviour
         PositionSelectUI.SetActive(false);
         GridManager.Instance.GridView();
 
-        GameManager.Instance.ChangeState(GameManager.GameState.PlayerTurn);
+        GameManager.Instance.ChangeState(GameManager.GameState.CombatLoop);
     }
 }

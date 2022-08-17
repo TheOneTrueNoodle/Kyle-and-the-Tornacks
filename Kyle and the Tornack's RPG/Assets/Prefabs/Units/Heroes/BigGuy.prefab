@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7917776697186827925}
   m_Layer: 0
   m_Name: BigGuy
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,4 +95,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fb48debb84e2794ab3ec2edfc8dcb4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faction: 0
+  UnitData: {fileID: 0}
+  OccupiedTile: {fileID: 0}
+  BaseVigor: 0
+  BaseStamina: 0
+  BaseStrength: 0
+  BaseSkill: 0
+  BaseIntelligence: 0
+  BaseFaith: 0
+  BaseWillpower: 0
   charName: Big Guy

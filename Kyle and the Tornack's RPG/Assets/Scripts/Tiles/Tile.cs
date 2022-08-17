@@ -112,7 +112,7 @@ public class Tile : MonoBehaviour
         }
 
         //Player Turn Movement
-        else if(GameManager.Instance.state == GameManager.GameState.PlayerTurn)
+        else if(GameManager.Instance.state == GameManager.GameState.CombatLoop)
         {
             if (BattleSetupManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit.faction == Faction.Hero && StartingLocation == true)
             {

@@ -9,16 +9,17 @@ public class BaseUnit : MonoBehaviour
 
     public Tile OccupiedTile;
 
-    public float BaseVigor, BaseStamina, BaseStrength, BaseSkill, BaseIntelligence, BaseFaith, BaseWillpower;
+    public float Vigor, Stamina, Strength, Skill, Intelligence, Faith, Willpower;
+    public int speed;
 
     public void SetStats()
     {
-        BaseVigor = UnitData.BaseVigor;
-        BaseStamina = UnitData.BaseStamina;
-        BaseStrength = UnitData.BaseStrength;
-        BaseSkill = UnitData.BaseSkill;
-        BaseIntelligence = UnitData.BaseIntelligence;
-        BaseFaith = UnitData.BaseFaith;
-        BaseWillpower = UnitData.BaseWillpower;
+        Vigor = UnitData.BaseVigor;
+        Stamina = UnitData.BaseStamina;
+        Strength = UnitData.BaseStrength;
+        Skill = UnitData.BaseSkill;
+        Intelligence = UnitData.BaseIntelligence;
+        Faith = UnitData.BaseFaith;
+        Willpower = UnitData.BaseWillpower;
     }
 }
