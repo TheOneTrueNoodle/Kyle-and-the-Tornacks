@@ -12,6 +12,8 @@ public class BaseUnit : MonoBehaviour
     public float Vigor, Stamina, Strength, Skill, Intelligence, Faith, Willpower;
     public int speed;
 
+    public InitiativeDisplay InitIcon;
+
     public void SetStats()
     {
         Vigor = UnitData.BaseVigor;

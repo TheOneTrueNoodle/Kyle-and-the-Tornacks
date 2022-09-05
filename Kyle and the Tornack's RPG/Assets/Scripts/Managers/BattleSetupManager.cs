@@ -50,7 +50,7 @@ public class BattleSetupManager : MonoBehaviour
         {
             if (heroes[i].DeadorInjured == false)
             {
-                GameObject button = Instantiate(buttonTemplate) as GameObject;
+                GameObject button = Instantiate(buttonTemplate);
                 button.SetActive(true);
 
                 button.name = heroes[i].CharName;
@@ -182,14 +182,14 @@ public class BattleSetupManager : MonoBehaviour
         //Turn off position select ui DONE
         //Changes all the tiles in the grid manager to not use their grid view DONE
         //Changes game state to players turn DONE
-        //Spawns enemy units 
+        //Spawns enemy units DONE
 
         //Afterwards we need a combat loop manager to replace this battlesetupmanager as it has run its functions... Find what relies on this and figure out a work around.
 
         //LETS GO
         PositionSelectUI.SetActive(false);
         GridManager.Instance.GridView();
-
+        BattleManager.Instance.CreateInitiativeOrder();
         GameManager.Instance.ChangeState(GameManager.GameState.CombatLoop);
     }
 }

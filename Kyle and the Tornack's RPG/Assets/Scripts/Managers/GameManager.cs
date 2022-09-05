@@ -34,7 +34,6 @@ public class GameManager : MonoBehaviour
                 BattleSetupManager.Instance.SelectStartingPositions();
                 break;
             case GameState.CombatLoop:
-                BattleManager.Instance.CreateInitiativeOrder();
                 break;
             case GameState.Victory:
                 break;
