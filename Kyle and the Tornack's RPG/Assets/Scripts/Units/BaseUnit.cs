@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class BaseUnit : MonoBehaviour
 {
+    [Header("Faction & Data")]
     public Faction faction;
     public ScriptableUnit UnitData;
-
+    [Space]
     public Tile OccupiedTile;
-
-    public float Vigor, Stamina, Strength, Skill, Intelligence, Faith, Willpower;
-    public int speed;
-
+    [Space]
+    [Header("Stats")]
+    public float Vigor;
+    public float Stamina;
+    public float Strength;
+    public float Skill;
+    public float Arcane;
+    public float Will;
+    public int Speed;
+    [Space]
+    [Header("Visuals")]
     public InitiativeDisplay InitIcon;
+    public Color DefaultColor, SelectedColor, HighlightedColor;
+
+    //Gameplay Values
+    [Space]
+    [Header("Gameplay Values")]
+    public bool CurrentTurn = false;
 
     public void SetStats()
     {
@@ -20,8 +34,16 @@ public class BaseUnit : MonoBehaviour
         Stamina = UnitData.BaseStamina;
         Strength = UnitData.BaseStrength;
         Skill = UnitData.BaseSkill;
-        Intelligence = UnitData.BaseIntelligence;
-        Faith = UnitData.BaseFaith;
-        Willpower = UnitData.BaseWillpower;
+        Arcane = UnitData.BaseArcane;
+        Will = UnitData.BaseWill;
+    }
+
+    public void UnitSelected()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = SelectedColor;
+    }
+    public void UnitDeselected()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
     }
 }

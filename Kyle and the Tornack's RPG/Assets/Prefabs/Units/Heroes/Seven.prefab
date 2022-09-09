@@ -98,11 +98,16 @@ MonoBehaviour:
   faction: 0
   UnitData: {fileID: 0}
   OccupiedTile: {fileID: 0}
-  BaseVigor: 0
-  BaseStamina: 0
-  BaseStrength: 0
-  BaseSkill: 0
-  BaseIntelligence: 0
-  BaseFaith: 0
-  BaseWillpower: 0
+  Vigor: 0
+  Stamina: 0
+  Strength: 0
+  Skill: 0
+  Arcane: 0
+  Will: 0
+  Speed: 0
+  InitIcon: {fileID: 0}
+  DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+  SelectedColor: {r: 0.34509805, g: 0.6, b: 1, a: 255}
+  HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+  CurrentTurn: 0
   charName: Seven

@@ -63,9 +63,10 @@ public class Tile : MonoBehaviour
         //Choosing Starting Positions
         if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
         {
-            //The player has already selected another unit
+            //Is a unit selected? (Moving selected unit)
             if (BattleSetupManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit.faction == Faction.Hero && StartingLocation == true)
             {
+                //YES
                 //If there is a unit on this tile
                 if (OccupiedUnit != null)
                 {
@@ -96,27 +97,38 @@ public class Tile : MonoBehaviour
                 }
             }
 
-            //The Player has not selected another unit
-
-            //The unit on this tile is a Hero...
-            else if (OccupiedUnit != null && OccupiedUnit.faction == Faction.Hero)
+            else if (OccupiedUnit != null)
             {
-                BattleSetupManager.Instance.SetSelectedUnit((BaseUnit)OccupiedUnit);
-            }
-
-            //The unit on this tile is an Enemy...
-            else if (OccupiedUnit != null && OccupiedUnit.faction == Faction.Enemy)
-            {
-                BattleSetupManager.Instance.SetSelectedUnit((BaseUnit)OccupiedUnit);
+                //NO AND THERE IS A UNIT ON THIS TILE
+                if (OccupiedUnit.faction == Faction.Hero)
+                {
+                    //Unit on this tile is a hero
+                    BattleSetupManager.Instance.SetSelectedUnit((BaseUnit)OccupiedUnit);
+                }
+                else if (OccupiedUnit.faction == Faction.Enemy)
+                {
+                    //Unit on this tile is an enemy
+                    BattleSetupManager.Instance.SetSelectedUnit(OccupiedUnit);
+                }
             }
         }
 
         //Player Turn Movement
         else if(GameManager.Instance.state == GameManager.GameState.CombatLoop)
         {
-            if (BattleSetupManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit.faction == Faction.Hero && StartingLocation == true)
+            //Checks to see if a unit is currently selected...
+            if (BattleManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit)
             {
 
+            }
+            //No unit currently selected
+            else
+            {
+                //If Occupied Unit is equal to a hero
+                if(OccupiedUnit != null && OccupiedUnit.faction == Faction.Hero)
+                {
+                    BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
+                }
             }
         }
     }

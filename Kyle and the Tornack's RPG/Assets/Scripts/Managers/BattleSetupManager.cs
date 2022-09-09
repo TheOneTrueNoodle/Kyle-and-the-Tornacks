@@ -9,30 +9,39 @@ public class BattleSetupManager : MonoBehaviour
 {
     public static BattleSetupManager Instance;
 
-    //Unit Select Screen
+    [Header("Unit Select Screen")]
     [SerializeField] private GameObject CharacterSelectUI;
     [SerializeField] private GameObject buttonTemplate;
     private List<ScriptableUnit> heroes;
     private bool HeroUIGenerated = false;
     public List<ScriptableUnit> SelectedUnits;
 
+    [Space]
+    [Header("Poppup UI")]
     public TMP_Text NoHeroes;
     public GameObject LessThanSix;
 
-    //Position Select Screen
+    [Space]
+    [Header("Position Select Screen")]
     [SerializeField] private GameObject PositionSelectUI;
     private bool HeroesSpawned = false;
     [SerializeField] private CameraMoveControl camControl;
     [SerializeField] private CameraZoomControl camZoom;
 
     //CharacterInfoUI
+    [Space]
+    [Header("CharacterInfo")]
     [SerializeField] private Image InfoPortrait;
-    [SerializeField] private TMP_Text VigorDisp, StaminaDisp, StrengthDisp, SkillDisp, IntelligenceDisp, FaithDisp, WillpowerDisp;
+    [SerializeField] private TMP_Text VigorDisp;
+    [SerializeField] private TMP_Text StaminaDisp;
+    [SerializeField] private TMP_Text StrengthDisp;
+    [SerializeField] private TMP_Text SkillDisp;
+    [SerializeField] private TMP_Text ArcaneDisp;
+    [SerializeField] private TMP_Text WillDisp;
     
+    [Space]
+    [Header("Gameplay Values")]
     public BaseUnit SelectedUnit;
-    public Color SelectedColor = new Color(88, 153, 255, 255);
-    public Color UnitMovedColor = new Color(103, 103, 103, 255);
-    public Color DefaultColor = new Color(255, 255, 255, 255);
 
     //For enemy units, we shall have a list of enemies and a tile paired together
     public List<ScriptableUnit> Enemies;
@@ -113,16 +122,15 @@ public class BattleSetupManager : MonoBehaviour
         GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
     }
 
-    public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Strength, float Skill, float Intelligence, float Faith, float Willpower)
+    public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Strength, float Skill, float Arcane, float Will)
     {
         InfoPortrait.sprite = Portrait;
         VigorDisp.text = "Vigor: " + Vigor;
         StaminaDisp.text = "Stamina: " + Stamina;
         StrengthDisp.text = "Strength: " + Strength;
         SkillDisp.text = "Skill: " + Skill;
-        IntelligenceDisp.text = "Intelligence: " + Intelligence;
-        FaithDisp.text = "Faith: " + Faith;
-        WillpowerDisp.text = "Willpower: " + Willpower;
+        ArcaneDisp.text = "Arcane: " + Arcane;
+        WillDisp.text = "Will: " + Will;
     }
 
     public void SetSelectedUnit(BaseUnit unit)
@@ -132,14 +140,15 @@ public class BattleSetupManager : MonoBehaviour
             UnselectUnit();
         }
         SelectedUnit = unit;
-        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = SelectedColor;
+        SelectedUnit.UnitSelected();
     }
 
     public void UnselectUnit()
     {
-        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
+        SelectedUnit.UnitDeselected();
         SelectedUnit = null;
     }
+
     public void SelectStartingPositions()
     {
         if (HeroesSpawned != true)
@@ -157,7 +166,7 @@ public class BattleSetupManager : MonoBehaviour
 
                 randomSpawnTile.SetUnit(spawnedHero);
 
-                spawnedHero.speed = (int)(spawnedHero.Skill + Random.Range(1, 10));
+                spawnedHero.Speed = (int)(spawnedHero.Skill + Random.Range(1, 10));
                 BattleManager.Instance.AllUnits.Add(spawnedHero);
             }
 
@@ -167,7 +176,7 @@ public class BattleSetupManager : MonoBehaviour
                 spawnedEnemy.UnitData = Enemies[i];
                 spawnedEnemy.SetStats();
                 EnemySpawnTile[i].SetUnit(spawnedEnemy);
-                spawnedEnemy.speed = (int)(spawnedEnemy.Skill + Random.Range(1, 10));
+                spawnedEnemy.Speed = (int)(spawnedEnemy.Skill + Random.Range(1, 10));
                 BattleManager.Instance.AllUnits.Add(spawnedEnemy);
             }
 

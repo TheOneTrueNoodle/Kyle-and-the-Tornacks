@@ -21,7 +21,7 @@ public class UnitSelectButton : MonoBehaviour
 
     public void MouseOverButton()
     {
-        BattleSetupManager.Instance.CharacterInfo(CharPortrait.sprite, ThisUnit.BaseVigor, ThisUnit.BaseStamina, ThisUnit.BaseStrength, ThisUnit.BaseSkill, ThisUnit.BaseIntelligence, ThisUnit.BaseFaith, ThisUnit.BaseWillpower);
+        BattleSetupManager.Instance.CharacterInfo(CharPortrait.sprite, ThisUnit.BaseVigor, ThisUnit.BaseStamina, ThisUnit.BaseStrength, ThisUnit.BaseSkill, ThisUnit.BaseArcane, ThisUnit.BaseWill);
     }
 
     public void Clicked()
