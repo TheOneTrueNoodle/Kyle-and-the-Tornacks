@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: 346c1de02b3646e47a6a69613add68f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4874627710236053173
+    second: Kyle-Idle_Sprite_SheetX_0
+  - first:
+      213: -1206550957583298089
+    second: Kyle-Idle_Sprite_SheetX_1
+  - first:
+      213: 1843771725948629484
+    second: Kyle-Idle_Sprite_SheetX_2
+  - first:
+      213: -7375298034619661773
+    second: Kyle-Idle_Sprite_SheetX_3
+  - first:
+      213: -3188049094597156069
+    second: Kyle-Idle_Sprite_SheetX_4
+  - first:
+      213: 8110166382096462417
+    second: Kyle-Idle_Sprite_SheetX_5
+  - first:
+      213: -7181080339191114309
+    second: Kyle-Idle_Sprite_SheetX_6
+  - first:
+      213: -5385640833041485482
+    second: Kyle-Idle_Sprite_SheetX_7
+  - first:
+      213: -3399222053438631033
+    second: Kyle-Idle_Sprite_SheetX_8
+  - first:
+      213: 3536345019679430198
+    second: Kyle-Idle_Sprite_SheetX_9
+  - first:
+      213: -8272271550411983694
+    second: Kyle-Idle_Sprite_SheetX_10
+  - first:
+      213: 7526521630938101367
+    second: Kyle-Idle_Sprite_SheetX_11
+  - first:
+      213: 2881387137253932555
+    second: Kyle-Idle_Sprite_SheetX_12
+  - first:
+      213: -5101562108118582210
+    second: Kyle-Idle_Sprite_SheetX_13
+  - first:
+      213: 8590739087970844517
+    second: Kyle-Idle_Sprite_SheetX_14
+  - first:
+      213: 8027505535660866596
+    second: Kyle-Idle_Sprite_SheetX_15
+  - first:
+      213: -4256011979902425908
+    second: Kyle-Idle_Sprite_SheetX_16
+  - first:
+      213: -4256875951069513929
+    second: Kyle-Idle_Sprite_SheetX_17
+  - first:
+      213: -7289216837595337109
+    second: Kyle-Idle_Sprite_SheetX_18
+  - first:
+      213: 7996743958971977312
+    second: Kyle-Idle_Sprite_SheetX_19
+  - first:
+      213: -526007106784977586
+    second: Kyle-Idle_Sprite_SheetX_20
+  - first:
+      213: 8677705085983039533
+    second: Kyle-Idle_Sprite_SheetX_21
+  - first:
+      213: -5957215777256960258
+    second: Kyle-Idle_Sprite_SheetX_22
+  - first:
+      213: 6722926200106731916
+    second: Kyle-Idle_Sprite_SheetX_23
+  - first:
+      213: -1149190985842660078
+    second: Kyle-Idle_Sprite_SheetX_24
+  - first:
+      213: -524927612319890858
+    second: Kyle-Idle_Sprite_SheetX_25
+  - first:
+      213: 8080425496817298980
+    second: Kyle-Idle_Sprite_SheetX_26
+  - first:
+      213: 7260446702351947524
+    second: Kyle-Idle_Sprite_SheetX_27
+  - first:
+      213: -8053858557061469112
+    second: Kyle-Idle_Sprite_SheetX_28
+  - first:
+      213: 3994286123810480842
+    second: Kyle-Idle_Sprite_SheetX_29
+  - first:
+      213: 6987712435356895296
+    second: Kyle-Idle_Sprite_SheetX_30
+  - first:
+      213: 4576275771537440029
+    second: Kyle-Idle_Sprite_SheetX_31
+  - first:
+      213: 4347598423551934848
+    second: Kyle-Idle_Sprite_SheetX_32
+  - first:
+      213: 8134539654182847236
+    second: Kyle-Idle_Sprite_SheetX_33
+  - first:
+      213: -6851652133168091088
+    second: Kyle-Idle_Sprite_SheetX_34
+  - first:
+      213: 1846515156797630815
+    second: Kyle-Idle_Sprite_SheetX_35
+  - first:
+      213: 3355884920521835561
+    second: Kyle-Idle_Sprite_SheetX_36
+  - first:
+      213: 618669501107161222
+    second: Kyle-Idle_Sprite_SheetX_37
+  - first:
+      213: 3509478637256921713
+    second: Kyle-Idle_Sprite_SheetX_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be45e8531826a340800000000000000
+      internalID: 4874627710236053173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d117d1fb48714fe0800000000000000
+      internalID: -1206550957583298089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1b314bd94669910800000000000000
+      internalID: 1843771725948629484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332cbd5738da5a990800000000000000
+      internalID: -7375298034619661773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13e70e4d36c1c3d0800000000000000
+      internalID: -3188049094597156069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152bc22ea591d8070800000000000000
+      internalID: 8110166382096462417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5d8fe7a7da75c90800000000000000
+      internalID: -7181080339191114309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65139ba523c5245b0800000000000000
+      internalID: -5385640833041485482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783dd106d8983d0d0800000000000000
+      internalID: -3399222053438631033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d63d1f0f931130800000000000000
+      internalID: 3536345019679430198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4bf107adcf23d80800000000000000
+      internalID: -8272271550411983694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776fb5ecb83937860800000000000000
+      internalID: 7526521630938101367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e7668c55ebcf720800000000000000
+      internalID: 2881387137253932555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cbff9ba4c9339b0800000000000000
+      internalID: -5101562108118582210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fb0905faf683770800000000000000
+      internalID: 8590739087970844517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 270
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3c8dc0cd676f60800000000000000
+      internalID: 8027505535660866596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4eb1257ab9fe4c0800000000000000
+      internalID: -4256011979902425908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737399b50e98ce4c0800000000000000
+      internalID: -4256875951069513929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e6558f7ef77da90800000000000000
+      internalID: -7289216837595337109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e864a13442afe60800000000000000
+      internalID: 7996743958971977312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d10c2c25f33b8f0800000000000000
+      internalID: -526007106784977586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20ae9b9cc66d6870800000000000000
+      internalID: 8677705085983039533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe0f3230d7b35da0800000000000000
+      internalID: -5957215777256960258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 180
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89478862c1ac4d50800000000000000
+      internalID: 6722926200106731916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d64c513e04d00f0800000000000000
+      internalID: -1149190985842660078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65201e62e1517b8f0800000000000000
+      internalID: -524927612319890858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eedcb6d20732070800000000000000
+      internalID: 8080425496817298980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407185ceec942c460800000000000000
+      internalID: 7260446702351947524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c6c134052fa3090800000000000000
+      internalID: -8053858557061469112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2eef4211e8e6730800000000000000
+      internalID: 3994286123810480842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048070eff6759f060800000000000000
+      internalID: 6987712435356895296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 90
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d37bc6192328f30800000000000000
+      internalID: 4576275771537440029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0818cdd4bb5c55c30800000000000000
+      internalID: 4347598423551934848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403c5e287b0b3e070800000000000000
+      internalID: 8134539654182847236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030f7fdbfaa0ae0a0800000000000000
+      internalID: -6851652133168091088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592c4970c320a910800000000000000
+      internalID: 1846515156797630815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9244bc21e8f729e20800000000000000
+      internalID: 3355884920521835561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884cd622a4f59800800000000000000
+      internalID: 618669501107161222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kyle-Idle_Sprite_SheetX_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 60
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17255800a3c24b030800000000000000
+      internalID: 3509478637256921713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

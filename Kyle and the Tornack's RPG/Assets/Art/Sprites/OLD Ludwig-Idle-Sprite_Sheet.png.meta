@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e15d6b63388fd64cbcd8f5b509521bc
+guid: 60b1c7e0692c1804cbca73330148c70a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -135,6 +135,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -143,11 +155,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 60
-        height: 90
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +175,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 90
-        width: 60
-        height: 90
+        x: 100
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +196,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 90
-        width: 60
-        height: 90
+        x: 200
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +217,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_3
       rect:
         serializedVersion: 2
-        x: 180
-        y: 90
-        width: 60
-        height: 90
+        x: 300
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +238,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_4
       rect:
         serializedVersion: 2
-        x: 240
-        y: 90
-        width: 60
-        height: 90
+        x: 400
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +259,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_5
       rect:
         serializedVersion: 2
-        x: 300
-        y: 90
-        width: 60
-        height: 90
+        x: 500
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +280,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_6
       rect:
         serializedVersion: 2
-        x: 360
-        y: 90
-        width: 60
-        height: 90
+        x: 600
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +301,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_7
       rect:
         serializedVersion: 2
-        x: 420
-        y: 90
-        width: 60
-        height: 90
+        x: 700
+        y: 100
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,10 +324,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +343,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_9
       rect:
         serializedVersion: 2
-        x: 60
+        x: 100
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +364,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_10
       rect:
         serializedVersion: 2
-        x: 120
+        x: 200
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +385,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_11
       rect:
         serializedVersion: 2
-        x: 180
+        x: 300
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +406,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_12
       rect:
         serializedVersion: 2
-        x: 240
+        x: 400
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +427,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_13
       rect:
         serializedVersion: 2
-        x: 300
+        x: 500
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +448,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_14
       rect:
         serializedVersion: 2
-        x: 360
+        x: 600
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +469,12 @@ TextureImporter:
       name: Ludwig-Idle-Sprite_Sheet_15
       rect:
         serializedVersion: 2
-        x: 420
+        x: 700
         y: 0
-        width: 60
-        height: 90
+        width: 100
+        height: 100
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

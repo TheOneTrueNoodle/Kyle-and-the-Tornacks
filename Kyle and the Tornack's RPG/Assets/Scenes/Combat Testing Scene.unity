@@ -18651,11 +18651,10 @@ MonoBehaviour:
   AllUnits: []
   CurrentUnitTurn: {fileID: 0}
   IconTemplate: {fileID: 1573654057138028459}
+  InitIcons: []
   InitiativeOrderUI: {fileID: 668039619}
   SelectedUnit: {fileID: 0}
-  SelectedColor: {r: 88, g: 153, b: 255, a: 255}
-  UnitMovedColor: {r: 103, g: 103, b: 103, a: 255}
-  DefaultColor: {r: 255, g: 255, b: 255, a: 255}
+  MovableTiles: []
 --- !u!1 &692355784
 GameObject:
   m_ObjectHideFlags: 0

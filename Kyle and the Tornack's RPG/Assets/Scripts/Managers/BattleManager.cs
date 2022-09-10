@@ -10,13 +10,12 @@ public class BattleManager : MonoBehaviour
     public BaseUnit CurrentUnitTurn;
 
     [SerializeField] private GameObject IconTemplate;
+    [SerializeField] private List<GameObject> InitIcons;
     [SerializeField] private GameObject InitiativeOrderUI;
     
     //Unit Selection
     public BaseUnit SelectedUnit;
-    public Color SelectedColor = new Color(88, 153, 255, 255);
-    public Color UnitMovedColor = new Color(103, 103, 103, 255);
-    public Color DefaultColor = new Color(255, 255, 255, 255);
+    public List<Tile> MovableTiles;
 
     private void Awake()
     {
@@ -30,6 +29,7 @@ public class BattleManager : MonoBehaviour
     public void CurrentTurn(BaseUnit Unit)
     {
         CurrentUnitTurn = Unit;
+        CurrentUnitTurn.RemainingMovement = CurrentUnitTurn.MoveSpeed;
 
         //Run player turn
         if(Unit.faction == Faction.Hero)
@@ -65,23 +65,54 @@ public class BattleManager : MonoBehaviour
             UnselectUnit();
         }
         SelectedUnit = unit;
-        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = SelectedColor;
+        SelectedUnit.UnitSelected();
 
-        if(SelectedUnit == CurrentUnitTurn)
+        if (SelectedUnit == CurrentUnitTurn)
         {
-            //Do Turn shit 
+            //Now, lets find every tile within the move distance of the selected unit
+            float UnitX = SelectedUnit.OccupiedTile.transform.position.x;
+            float UnitY = SelectedUnit.OccupiedTile.transform.position.y;
+
+            for(float x = UnitX; x <= UnitX + SelectedUnit.RemainingMovement; x++)
+            {
+                for(float y = UnitY; y <= UnitY + SelectedUnit.RemainingMovement; y++)
+                {
+                    //Check if position is walkable?
+                    Debug.Log(x + " " + y);
+                    Tile tile = GridManager.Instance.GetTileAtPosition(new Vector2(x, y));
+                    if ((tile != null) && tile.Walkable)
+                    {
+                        //This tile can be moved too..
+                        //ADD PATHFINDING TO SEE IF THERE IS A PATH TO TILE
+                        //ADD TO SEE IF PATHFINDING IS TOO FAR AWAY.
+                        SpriteRenderer renderer = tile.GetComponent<SpriteRenderer>();
+                        renderer.color = tile.HeroHighlightColor;
+                        renderer.enabled = true;
+
+                        tile.MoveSquare = true;
+                        MovableTiles.Add(tile);
+                    }
+                }
+            }
+
         }
     }
     public void UnselectUnit()
     {
-        SelectedUnit.gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
+        SelectedUnit.UnitDeselected();
+
+        if(SelectedUnit == CurrentUnitTurn)
+        {
+
+        }
+
         SelectedUnit = null;
     }
 
     public void CreateInitiativeOrder()
     {
         //Sorts the list by speed value
-        AllUnits.Sort((u1, u2) => u2.Speed.CompareTo(u1.Speed));
+        AllUnits.Sort((u1, u2) => u2.Init.CompareTo(u1.Init));
         InitiativeOrderUI.SetActive(true);
 
         for(int i = 0; i < AllUnits.Count; i++)
@@ -93,9 +124,11 @@ public class BattleManager : MonoBehaviour
             InitIcon.name = AllUnits[i].name + " Initiative Icon";
             InitIcon.GetComponent<InitiativeDisplay>().SetIcon(AllUnits[i].UnitData.CharPortrait, AllUnits[i]);
             InitIcon.transform.SetParent(IconTemplate.transform.parent, false);
+            InitIcons.Add(InitIcon);
         }
 
         AllUnits[0].InitIcon.CurrentActiveTurn();
         CurrentUnitTurn = AllUnits[0];
+        CurrentUnitTurn.RemainingMovement = CurrentUnitTurn.MoveSpeed;
     }
 }

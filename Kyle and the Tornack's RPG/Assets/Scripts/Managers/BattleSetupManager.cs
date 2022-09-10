@@ -42,7 +42,7 @@ public class BattleSetupManager : MonoBehaviour
     [Space]
     [Header("Gameplay Values")]
     public BaseUnit SelectedUnit;
-
+    [Space]
     //For enemy units, we shall have a list of enemies and a tile paired together
     public List<ScriptableUnit> Enemies;
     public List<Tile> EnemySpawnTile;
@@ -67,6 +67,7 @@ public class BattleSetupManager : MonoBehaviour
                 button.transform.SetParent(buttonTemplate.transform.parent, false);
             }
         }
+        HeroUIGenerated = true;
     }
 
     public void SelectHeroes()
@@ -166,7 +167,7 @@ public class BattleSetupManager : MonoBehaviour
 
                 randomSpawnTile.SetUnit(spawnedHero);
 
-                spawnedHero.Speed = (int)(spawnedHero.Skill + Random.Range(1, 10));
+                spawnedHero.Init = (int)(spawnedHero.Skill + Random.Range(1, 10));
                 BattleManager.Instance.AllUnits.Add(spawnedHero);
             }
 
@@ -176,7 +177,7 @@ public class BattleSetupManager : MonoBehaviour
                 spawnedEnemy.UnitData = Enemies[i];
                 spawnedEnemy.SetStats();
                 EnemySpawnTile[i].SetUnit(spawnedEnemy);
-                spawnedEnemy.Speed = (int)(spawnedEnemy.Skill + Random.Range(1, 10));
+                spawnedEnemy.Init = (int)(spawnedEnemy.Skill + Random.Range(1, 10));
                 BattleManager.Instance.AllUnits.Add(spawnedEnemy);
             }
 
@@ -186,16 +187,6 @@ public class BattleSetupManager : MonoBehaviour
 
     public void StartBattle()
     {
-        //When this is clicked it...
-
-        //Turn off position select ui DONE
-        //Changes all the tiles in the grid manager to not use their grid view DONE
-        //Changes game state to players turn DONE
-        //Spawns enemy units DONE
-
-        //Afterwards we need a combat loop manager to replace this battlesetupmanager as it has run its functions... Find what relies on this and figure out a work around.
-
-        //LETS GO
         PositionSelectUI.SetActive(false);
         GridManager.Instance.GridView();
         BattleManager.Instance.CreateInitiativeOrder();

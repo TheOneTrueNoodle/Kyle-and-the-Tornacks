@@ -28,6 +28,7 @@ public class GridManager : MonoBehaviour
         foreach (Tile tile in tileGrid)
         {
             Tiles[new Vector2(tile.transform.position.x, tile.transform.position.y)] = tile;
+            tile.Pos = new Vector2(tile.transform.position.x, tile.transform.position.y);
         }
 
         GameManager.Instance.ChangeState(GameManager.GameState.SelectUnits);
@@ -35,7 +36,8 @@ public class GridManager : MonoBehaviour
 
     public Tile GetTileAtPosition(Vector2 pos)
     {
-        if(Tiles.TryGetValue(pos, out var tile))
+        Debug.Log(pos);
+        if (Tiles.TryGetValue(pos, out var tile))
         {
             return tile;
         }

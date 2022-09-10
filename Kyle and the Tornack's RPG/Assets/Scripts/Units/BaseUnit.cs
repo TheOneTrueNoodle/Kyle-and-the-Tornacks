@@ -17,7 +17,9 @@ public class BaseUnit : MonoBehaviour
     public float Skill;
     public float Arcane;
     public float Will;
-    public int Speed;
+    public int MoveSpeed;
+    public int RemainingMovement;
+    public int Init;
     [Space]
     [Header("Visuals")]
     public InitiativeDisplay InitIcon;
@@ -36,6 +38,8 @@ public class BaseUnit : MonoBehaviour
         Skill = UnitData.BaseSkill;
         Arcane = UnitData.BaseArcane;
         Will = UnitData.BaseWill;
+
+        MoveSpeed = 2 + (int)Skill;
     }
 
     public void UnitSelected()

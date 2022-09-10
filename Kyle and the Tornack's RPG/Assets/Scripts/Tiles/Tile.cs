@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
+    public Vector2 Pos;
+
     [SerializeField] private SpriteRenderer Renderer;
 
     private Color CurrentDefaultColor;
@@ -18,6 +20,7 @@ public class Tile : MonoBehaviour
 
     public BaseUnit OccupiedUnit;
     public bool Walkable => obstacle == false && OccupiedUnit == null;
+    public bool MoveSquare;
 
     [HideInInspector] public bool GameStarted = false;
 
@@ -44,18 +47,21 @@ public class Tile : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if(GameManager.Instance.state == GameManager.GameState.SelectUnits)
+        if(MoveSquare != true)
+        {
+        if (GameManager.Instance.state == GameManager.GameState.SelectUnits)
         {
             Renderer.color = GridViewColor;
         }
         else if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
-        {
+            {
             Renderer.color = GridViewColor;
         }
         else
         {
             Renderer.enabled = false;
         }
+    }
     }
 
     private void OnMouseDown()
@@ -99,36 +105,29 @@ public class Tile : MonoBehaviour
 
             else if (OccupiedUnit != null)
             {
-                //NO AND THERE IS A UNIT ON THIS TILE
-                if (OccupiedUnit.faction == Faction.Hero)
-                {
-                    //Unit on this tile is a hero
-                    BattleSetupManager.Instance.SetSelectedUnit((BaseUnit)OccupiedUnit);
-                }
-                else if (OccupiedUnit.faction == Faction.Enemy)
-                {
-                    //Unit on this tile is an enemy
-                    BattleSetupManager.Instance.SetSelectedUnit(OccupiedUnit);
-                }
+                BattleSetupManager.Instance.SetSelectedUnit(OccupiedUnit);
             }
         }
 
-        //Player Turn Movement
+        //Combat Loop Selection
         else if(GameManager.Instance.state == GameManager.GameState.CombatLoop)
         {
             //Checks to see if a unit is currently selected...
-            if (BattleManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit)
+            if (BattleManager.Instance.SelectedUnit != null)
             {
-
-            }
-            //No unit currently selected
-            else
-            {
-                //If Occupied Unit is equal to a hero
-                if(OccupiedUnit != null && OccupiedUnit.faction == Faction.Hero)
+                if(OccupiedUnit != null)
                 {
                     BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
                 }
+                else if(BattleManager.Instance.SelectedUnit != BattleManager.Instance.CurrentUnitTurn)
+                {
+                    BattleManager.Instance.UnselectUnit();
+                }
+            }
+            //No unit currently selected
+            else if(OccupiedUnit != null)
+            {
+                BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
             }
         }
     }
