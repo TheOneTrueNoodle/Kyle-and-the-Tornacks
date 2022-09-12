@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class BaseUnit : MonoBehaviour
 {
@@ -18,7 +19,6 @@ public class BaseUnit : MonoBehaviour
     public float Arcane;
     public float Will;
     public int MoveSpeed;
-    public int RemainingMovement;
     public int Init;
     [Space]
     [Header("Visuals")]
@@ -29,6 +29,7 @@ public class BaseUnit : MonoBehaviour
     [Space]
     [Header("Gameplay Values")]
     public bool CurrentTurn = false;
+    public bool HasMoved = true;
 
     public void SetStats()
     {
@@ -49,5 +50,26 @@ public class BaseUnit : MonoBehaviour
     public void UnitDeselected()
     {
         gameObject.GetComponent<SpriteRenderer>().color = DefaultColor;
+    }
+
+    public IEnumerator TurnMovement(Tile TargetTile)
+    {
+        //Set move dest DONE, remove this unit from tile DONE, and tile from this unit DONE, unselect unit and set HasMoved to true 
+
+        AIDestinationSetter DestSetter = gameObject.GetComponent<AIDestinationSetter>();
+        DestSetter.target = TargetTile.gameObject.transform;
+
+        OccupiedTile.OccupiedUnit = null;
+        OccupiedTile = null;
+        BattleManager.Instance.UnselectUnit();
+
+        yield return new WaitUntil(() => gameObject.transform.position == TargetTile.transform.position);
+        Debug.Log("HAS ARRIVED AT TILE");
+
+        HasMoved = true;
+        DestSetter.target = null;
+        OccupiedTile = TargetTile;
+        OccupiedTile.OccupiedUnit = this;
+        BattleManager.Instance.SetSelectedUnit(this);
     }
 }

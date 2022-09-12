@@ -6,7 +6,7 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     public static GridManager Instance;
-    [SerializeField] private int width, height;
+    public int width, height;
 
     [SerializeField] private Tile tilePrefab;
     private Tile[] tileGrid;

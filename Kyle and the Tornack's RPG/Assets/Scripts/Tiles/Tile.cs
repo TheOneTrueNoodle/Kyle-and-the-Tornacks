@@ -153,6 +153,10 @@ public class Tile : MonoBehaviour
             {
                 BattleManager.Instance.UnselectUnit();
             }
+            else if(MoveSquare == true)
+            {
+                StartCoroutine(BattleManager.Instance.SelectedUnit.TurnMovement(this));
+            }
         }
         //No unit currently selected
         else if (OccupiedUnit != null)

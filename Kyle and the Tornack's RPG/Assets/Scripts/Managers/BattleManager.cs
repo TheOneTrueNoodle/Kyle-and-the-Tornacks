@@ -25,7 +25,7 @@ public class BattleManager : MonoBehaviour
     public void CurrentTurn(BaseUnit Unit)
     {
         CurrentUnitTurn = Unit;
-        CurrentUnitTurn.RemainingMovement = CurrentUnitTurn.MoveSpeed;
+        CurrentUnitTurn.HasMoved = false;
 
         //Run player turn
         if(Unit.faction == Faction.Hero)
@@ -63,18 +63,18 @@ public class BattleManager : MonoBehaviour
         SelectedUnit = unit;
         SelectedUnit.UnitSelected();
 
-        if (SelectedUnit == CurrentUnitTurn)
+        if (SelectedUnit == CurrentUnitTurn && CurrentUnitTurn.HasMoved == false)
         {
             //Now, lets find every tile within the move distance of the selected unit
             float UnitX = SelectedUnit.OccupiedTile.transform.position.x;
             float UnitY = SelectedUnit.OccupiedTile.transform.position.y;
 
-            for(float x = 0; x <= SelectedUnit.RemainingMovement; x++)
+            for(float x = 0; x <= SelectedUnit.MoveSpeed; x++)
             {
-                for(float y = 0; y <= SelectedUnit.RemainingMovement; y++)
+                for(float y = 0; y <= SelectedUnit.MoveSpeed; y++)
                 {
                     //Find what tile we are selecting and if it is within range...
-                    if(x + y <= SelectedUnit.RemainingMovement)
+                    if(x + y <= SelectedUnit.MoveSpeed)
                     {
                         //Now we need to do this for both positive and negative directions...
 
@@ -97,7 +97,7 @@ public class BattleManager : MonoBehaviour
     {
         SelectedUnit.UnitDeselected();
 
-        if(SelectedUnit == CurrentUnitTurn)
+        if(SelectedUnit == CurrentUnitTurn && CurrentUnitTurn.faction == Faction.Hero)
         {
             for(int i = 0; i < MoveableTiles.Count; i++)
             {
@@ -147,6 +147,6 @@ public class BattleManager : MonoBehaviour
 
         AllUnits[0].InitIcon.CurrentActiveTurn();
         CurrentUnitTurn = AllUnits[0];
-        CurrentUnitTurn.RemainingMovement = CurrentUnitTurn.MoveSpeed;
+        CurrentUnitTurn.HasMoved = false;
     }
 }
