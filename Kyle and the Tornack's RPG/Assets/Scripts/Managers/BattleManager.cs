@@ -15,15 +15,11 @@ public class BattleManager : MonoBehaviour
     
     //Unit Selection
     public BaseUnit SelectedUnit;
-    public List<Tile> MovableTiles;
+    public List<Tile> MoveableTiles;
 
     private void Awake()
     {
         Instance = this;
-    }
-
-    private void Update()
-    {
     }
 
     public void CurrentTurn(BaseUnit Unit)
@@ -73,24 +69,24 @@ public class BattleManager : MonoBehaviour
             float UnitX = SelectedUnit.OccupiedTile.transform.position.x;
             float UnitY = SelectedUnit.OccupiedTile.transform.position.y;
 
-            for(float x = UnitX; x <= UnitX + SelectedUnit.RemainingMovement; x++)
+            for(float x = 0; x <= SelectedUnit.RemainingMovement; x++)
             {
-                for(float y = UnitY; y <= UnitY + SelectedUnit.RemainingMovement; y++)
+                for(float y = 0; y <= SelectedUnit.RemainingMovement; y++)
                 {
-                    //Check if position is walkable?
-                    Debug.Log(x + " " + y);
-                    Tile tile = GridManager.Instance.GetTileAtPosition(new Vector2(x, y));
-                    if ((tile != null) && tile.Walkable)
+                    //Find what tile we are selecting and if it is within range...
+                    if(x + y <= SelectedUnit.RemainingMovement)
                     {
-                        //This tile can be moved too..
-                        //ADD PATHFINDING TO SEE IF THERE IS A PATH TO TILE
-                        //ADD TO SEE IF PATHFINDING IS TOO FAR AWAY.
-                        SpriteRenderer renderer = tile.GetComponent<SpriteRenderer>();
-                        renderer.color = tile.HeroHighlightColor;
-                        renderer.enabled = true;
+                        //Now we need to do this for both positive and negative directions...
 
-                        tile.MoveSquare = true;
-                        MovableTiles.Add(tile);
+                        Tile tile = GridManager.Instance.GetTileAtPosition(new Vector2(UnitX + x, UnitY + y));
+                        MoveableTile(tile);
+                        tile = GridManager.Instance.GetTileAtPosition(new Vector2(UnitX - x, UnitY + y));
+                        MoveableTile(tile);
+                        tile = GridManager.Instance.GetTileAtPosition(new Vector2(UnitX + x, UnitY - y));
+                        MoveableTile(tile);
+                        tile = GridManager.Instance.GetTileAtPosition(new Vector2(UnitX - x, UnitY - y));
+                        MoveableTile(tile);
+
                     }
                 }
             }
@@ -103,10 +99,32 @@ public class BattleManager : MonoBehaviour
 
         if(SelectedUnit == CurrentUnitTurn)
         {
-
+            for(int i = 0; i < MoveableTiles.Count; i++)
+            {
+                Tile tile = MoveableTiles[i];
+                SpriteRenderer renderer = tile.GetComponent<SpriteRenderer>();
+                renderer.enabled = false;
+                tile.MoveSquare = false;
+            }
+            MoveableTiles.Clear();
         }
 
         SelectedUnit = null;
+    }
+
+    private void MoveableTile(Tile tile)
+    {
+        if ((tile != null) && tile.Walkable)
+        {
+            //This tile can be moved too..
+            //ADD PATHFINDING TO SEE IF THERE IS A PATH TO TILE
+            //ADD TO SEE IF PATHFINDING IS TOO FAR AWAY.
+            SpriteRenderer renderer = tile.GetComponent<SpriteRenderer>();
+            renderer.color = tile.HeroHighlightColor;
+            renderer.enabled = true;
+            tile.MoveSquare = true;
+            MoveableTiles.Add(tile);
+        }
     }
 
     public void CreateInitiativeOrder()

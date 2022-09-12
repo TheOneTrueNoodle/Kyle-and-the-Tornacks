@@ -49,19 +49,23 @@ public class Tile : MonoBehaviour
     {
         if(MoveSquare != true)
         {
-        if (GameManager.Instance.state == GameManager.GameState.SelectUnits)
-        {
-            Renderer.color = GridViewColor;
-        }
-        else if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
+            if (GameManager.Instance.state == GameManager.GameState.SelectUnits)
             {
-            Renderer.color = GridViewColor;
+                Renderer.color = GridViewColor;
+            }
+            else if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
+            {
+                Renderer.color = GridViewColor;
+            }
+            else
+            {
+                Renderer.enabled = false;
+            }
         }
         else
         {
-            Renderer.enabled = false;
+            Renderer.color = HeroHighlightColor;
         }
-    }
     }
 
     private void OnMouseDown()
@@ -69,69 +73,15 @@ public class Tile : MonoBehaviour
         //Choosing Starting Positions
         if (GameManager.Instance.state == GameManager.GameState.SelectStartPositions)
         {
-            //Is a unit selected? (Moving selected unit)
-            if (BattleSetupManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit.faction == Faction.Hero && StartingLocation == true)
-            {
-                //YES
-                //If there is a unit on this tile
-                if (OccupiedUnit != null)
-                {
-                    //Swap both heroes...
-                    var SelUnit = BattleSetupManager.Instance.SelectedUnit;
-                    var OldUnit = OccupiedUnit;
-
-                    OldUnit.transform.position = SelUnit.OccupiedTile.transform.position;
-                    SelUnit.OccupiedTile.OccupiedUnit = OldUnit;
-                    OldUnit.OccupiedTile = SelUnit.OccupiedTile;
-
-                    SelUnit.transform.position = transform.position;
-                    SelUnit.OccupiedTile = this;
-                    OccupiedUnit = SelUnit;
-
-                    BattleSetupManager.Instance.UnselectUnit();
-                }
-                //If there is not another unit on this tile
-                else
-                {
-                    //Move hero to here...
-                    var SelUnit = BattleSetupManager.Instance.SelectedUnit;
-                    SelUnit.transform.position = transform.position;
-                    SelUnit.OccupiedTile.OccupiedUnit = null;
-                    SelUnit.OccupiedTile = this;
-                    OccupiedUnit = SelUnit;
-                    BattleSetupManager.Instance.UnselectUnit();
-                }
-            }
-
-            else if (OccupiedUnit != null)
-            {
-                BattleSetupManager.Instance.SetSelectedUnit(OccupiedUnit);
-            }
+            ChooseStartPosSelect();
         }
 
         //Combat Loop Selection
-        else if(GameManager.Instance.state == GameManager.GameState.CombatLoop)
+        else if (GameManager.Instance.state == GameManager.GameState.CombatLoop)
         {
-            //Checks to see if a unit is currently selected...
-            if (BattleManager.Instance.SelectedUnit != null)
-            {
-                if(OccupiedUnit != null)
-                {
-                    BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
-                }
-                else if(BattleManager.Instance.SelectedUnit != BattleManager.Instance.CurrentUnitTurn)
-                {
-                    BattleManager.Instance.UnselectUnit();
-                }
-            }
-            //No unit currently selected
-            else if(OccupiedUnit != null)
-            {
-                BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
-            }
+            CombatLoopSelect();
         }
     }
-
     public void SetUnit(BaseUnit unit)
     {
         if (unit.OccupiedTile != null)
@@ -141,5 +91,73 @@ public class Tile : MonoBehaviour
     unit.transform.position = transform.position;
     OccupiedUnit = unit;
     unit.OccupiedTile = this;
+    }
+    private void ChooseStartPosSelect()
+    {
+        //Is a unit selected? (Moving selected unit)
+        if (BattleSetupManager.Instance.SelectedUnit != null && BattleSetupManager.Instance.SelectedUnit.faction == Faction.Hero && StartingLocation == true)
+        {
+            //YES
+            //If there is a unit on this tile
+            if (OccupiedUnit != null)
+            {
+                //Swap both heroes...
+                var SelUnit = BattleSetupManager.Instance.SelectedUnit;
+                var OldUnit = OccupiedUnit;
+
+                OldUnit.transform.position = SelUnit.OccupiedTile.transform.position;
+                SelUnit.OccupiedTile.OccupiedUnit = OldUnit;
+                OldUnit.OccupiedTile = SelUnit.OccupiedTile;
+
+                SelUnit.transform.position = transform.position;
+                SelUnit.OccupiedTile = this;
+                OccupiedUnit = SelUnit;
+
+                BattleSetupManager.Instance.UnselectUnit();
+            }
+            //If there is not another unit on this tile
+            else
+            {
+                //Move hero to here...
+                var SelUnit = BattleSetupManager.Instance.SelectedUnit;
+                SelUnit.transform.position = transform.position;
+                SelUnit.OccupiedTile.OccupiedUnit = null;
+                SelUnit.OccupiedTile = this;
+                OccupiedUnit = SelUnit;
+                BattleSetupManager.Instance.UnselectUnit();
+            }
+        }
+
+        else if (OccupiedUnit != null)
+        {
+            BattleSetupManager.Instance.SetSelectedUnit(OccupiedUnit);
+        }
+    }
+    private void CombatLoopSelect()
+    {
+        //Checks to see if a unit is currently selected...
+        if (BattleManager.Instance.SelectedUnit != null)
+        {
+            if (OccupiedUnit != null)
+            {
+                if(OccupiedUnit == BattleManager.Instance.SelectedUnit)
+                {
+                    BattleManager.Instance.UnselectUnit();
+                }
+                else
+                {
+                    BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
+                }
+            }
+            else if (BattleManager.Instance.SelectedUnit != BattleManager.Instance.CurrentUnitTurn)
+            {
+                BattleManager.Instance.UnselectUnit();
+            }
+        }
+        //No unit currently selected
+        else if (OccupiedUnit != null)
+        {
+            BattleManager.Instance.SetSelectedUnit(OccupiedUnit);
+        }
     }
 }

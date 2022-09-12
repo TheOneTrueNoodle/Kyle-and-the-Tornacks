@@ -13,7 +13,7 @@ public class BaseUnit : MonoBehaviour
     [Header("Stats")]
     public float Vigor;
     public float Stamina;
-    public float Strength;
+    public float Power;
     public float Skill;
     public float Arcane;
     public float Will;
@@ -34,7 +34,7 @@ public class BaseUnit : MonoBehaviour
     {
         Vigor = UnitData.BaseVigor;
         Stamina = UnitData.BaseStamina;
-        Strength = UnitData.BaseStrength;
+        Power = UnitData.BasePower;
         Skill = UnitData.BaseSkill;
         Arcane = UnitData.BaseArcane;
         Will = UnitData.BaseWill;

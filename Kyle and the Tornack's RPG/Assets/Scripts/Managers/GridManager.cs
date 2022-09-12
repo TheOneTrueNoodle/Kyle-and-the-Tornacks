@@ -36,7 +36,6 @@ public class GridManager : MonoBehaviour
 
     public Tile GetTileAtPosition(Vector2 pos)
     {
-        Debug.Log(pos);
         if (Tiles.TryGetValue(pos, out var tile))
         {
             return tile;

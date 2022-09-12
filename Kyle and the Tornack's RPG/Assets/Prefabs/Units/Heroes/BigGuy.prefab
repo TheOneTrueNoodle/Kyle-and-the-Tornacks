@@ -72,8 +72,9 @@ SpriteRenderer:
   m_SortingLayerID: -105541197
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e9e43c6b25cc78a448e7bc6403e70a59, type: 3}
-  m_Color: {r: 0.8867924, g: 0.4908033, b: 0.4908033, a: 1}
+  m_Sprite: {fileID: 4385614896625609756, guid: 040e4c992ea636f409ab7a7889ddf348,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,7 +105,9 @@ MonoBehaviour:
   Skill: 0
   Arcane: 0
   Will: 0
-  Speed: 0
+  MoveSpeed: 0
+  RemainingMovement: 0
+  Init: 0
   InitIcon: {fileID: 0}
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
   SelectedColor: {r: 0.34509805, g: 0.6, b: 1, a: 255}

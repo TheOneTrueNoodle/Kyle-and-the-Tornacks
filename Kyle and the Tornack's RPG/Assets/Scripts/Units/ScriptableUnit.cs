@@ -13,7 +13,7 @@ public class ScriptableUnit : ScriptableObject
     public string CharName;
     public Sprite CharPortrait;
 
-    public float BaseVigor, BaseStamina, BaseStrength, BaseSkill, BaseArcane, BaseWill;
+    public float BaseVigor, BaseStamina, BasePower, BaseSkill, BaseArcane, BaseWill;
 }
 
 public enum Faction

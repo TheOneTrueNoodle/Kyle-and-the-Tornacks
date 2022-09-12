@@ -34,7 +34,7 @@ public class BattleSetupManager : MonoBehaviour
     [SerializeField] private Image InfoPortrait;
     [SerializeField] private TMP_Text VigorDisp;
     [SerializeField] private TMP_Text StaminaDisp;
-    [SerializeField] private TMP_Text StrengthDisp;
+    [SerializeField] private TMP_Text PowerDisp;
     [SerializeField] private TMP_Text SkillDisp;
     [SerializeField] private TMP_Text ArcaneDisp;
     [SerializeField] private TMP_Text WillDisp;
@@ -123,12 +123,12 @@ public class BattleSetupManager : MonoBehaviour
         GameManager.Instance.ChangeState(GameManager.GameState.SelectStartPositions);
     }
 
-    public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Strength, float Skill, float Arcane, float Will)
+    public void CharacterInfo(Sprite Portrait ,float Vigor, float Stamina, float Power, float Skill, float Arcane, float Will)
     {
         InfoPortrait.sprite = Portrait;
         VigorDisp.text = "Vigor: " + Vigor;
         StaminaDisp.text = "Stamina: " + Stamina;
-        StrengthDisp.text = "Strength: " + Strength;
+        PowerDisp.text = "Power: " + Power;
         SkillDisp.text = "Skill: " + Skill;
         ArcaneDisp.text = "Arcane: " + Arcane;
         WillDisp.text = "Will: " + Will;
